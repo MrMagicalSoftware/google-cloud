@@ -798,6 +798,12 @@ Questa connessione consente di creare un ambiente ibrido, in cui le risorse loca
      - **Internal Load Balancer**: Per distribuire traffico tra risorse interne alla rete privata.
    - **Ideale per**: Applicazioni ad alta disponibilità, ridistribuzione del traffico e miglioramento delle prestazioni a livello globale.
 
+
+![Screenshot 2024-11-10 alle 22 10 10](https://github.com/user-attachments/assets/6448577b-6c61-485c-9c04-b0826c2f1911)
+
+
+
+
 3. **Cloud CDN (Content Delivery Network)**
    - **Descrizione**: CDN completamente gestito che riduce la latenza e migliora le prestazioni per contenuti web statici. Distribuisce i contenuti agli utenti da nodi globali vicini, riducendo i tempi di risposta.
    - **Funzionalità principali**:
@@ -805,6 +811,10 @@ Questa connessione consente di creare un ambiente ibrido, in cui le risorse loca
      - **Integrazione con Load Balancer**: Funziona con Cloud Load Balancing per fornire contenuti in modo scalabile e ottimizzato.
      - **Gestione del traffico**: Dirige il traffico al nodo più vicino all'utente.
    - **Ideale per**: Distribuire contenuti web statici, migliorare la latenza e ottimizzare l’esperienza utente globale.
+
+
+
+
 
 4. **Cloud Interconnect**
    - **Descrizione**: Servizio per stabilire una connessione fisica diretta tra la rete on-premise e Google Cloud, riducendo latenza e costi di banda rispetto a connessioni internet standard.
@@ -820,12 +830,23 @@ Questa connessione consente di creare un ambiente ibrido, in cui le risorse loca
      - **HA VPN**: Fornisce un'alta disponibilità per le connessioni VPN.
    - **Ideale per**: Collegare ambienti on-premise e Google Cloud in modo sicuro, creando una rete ibrida.
 
+![Screenshot 2024-11-10 alle 22 13 05](https://github.com/user-attachments/assets/098a000d-dc73-48dc-91df-ad0ac38eff92)
+
+
+
+
 6. **Cloud DNS**
    - **Descrizione**: Servizio di gestione DNS (Domain Name System) che offre DNS globale, scalabile e ad alta disponibilità, per risolvere i nomi di dominio di risorse in Google Cloud.
    - **Funzionalità principali**:
      - **DNS gestito**: Risoluzione DNS veloce e sicura con configurazione semplice.
      - **DNS pubblico e privato**: Supporta sia la risoluzione pubblica che quella interna alla rete.
    - **Ideale per**: Applicazioni distribuite, configurazione DNS sicura e ad alte prestazioni.
+
+![Screenshot 2024-11-10 alle 22 12 21](https://github.com/user-attachments/assets/25e2b1c2-2653-4253-9c6f-ddcd0b847a07)
+
+
+
+
 
 7. **Traffic Director**
    - **Descrizione**: Servizio di gestione del traffico per configurare e controllare il traffico tra i servizi su Google Cloud, progettato per scenari di service mesh. Consente un controllo avanzato con funzionalità come il bilanciamento del carico lato client, il failover automatico e il routing basato su criteri.
