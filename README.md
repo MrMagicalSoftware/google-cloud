@@ -261,7 +261,6 @@ I **modelli di servizio del cloud** (o **cloud service models**) definiscono il 
 | **PaaS**     | Applicazioni, configurazioni specifiche         | Infrastruttura, sistema operativo, runtime   |
 | **SaaS**     | Utilizzo del software                           | Tutto (infrastruttura, OS, app, manutenzione)|
 
-La scelta del modello di servizio dipende dal livello di controllo desiderato, dai requisiti di gestione e manutenzione e dalle risorse necessarie per l’applicazione o il progetto.
 
 
 
