@@ -44,4 +44,50 @@ Panoramica dei servizi principali di GCP:
    - **Sicurezza**: fornisce robusti protocolli di sicurezza e conformità alle normative.
    - **Innovazione**: offre accesso agli strumenti AI/ML e alle ultime tecnologie sviluppate da Google.
 
-In generale, Google Cloud è un'ottima scelta per chi desidera una piattaforma potente e flessibile per la gestione delle applicazioni e dei dati nel cloud.
+
+
+_______________
+
+
+IaaS, o **Infrastructure as a Service**, è un modello di cloud computing in cui un provider cloud fornisce ai clienti risorse di infrastruttura IT di base come **server, storage, e networking**. In questo modello, i clienti possono gestire e configurare queste risorse come meglio credono, ma senza preoccuparsi dell'hardware fisico sottostante o della sua manutenzione.
+
+### Caratteristiche principali di IaaS
+- **Virtualizzazione**: IaaS utilizza tecniche di virtualizzazione per offrire accesso a server virtuali (macchine virtuali) che si comportano come server fisici. Gli utenti possono configurare questi server con le proprie specifiche, installando il sistema operativo e le applicazioni desiderate.
+  
+- **Gestione flessibile**: gli utenti possono gestire e configurare direttamente le risorse, controllando l'ambiente virtuale in modo simile a come farebbero in un data center on-premises.
+  
+- **Flessibilità e scalabilità**: IaaS consente di aumentare o diminuire le risorse in base alle esigenze. Gli utenti possono aggiungere server, aumentare lo spazio di archiviazione o la capacità di rete senza dover acquistare nuovo hardware fisico.
+  
+- **Pagamento basato sull'uso**: i servizi IaaS sono solitamente fatturati in base all'uso (pay-as-you-go). Si paga solo per le risorse effettivamente utilizzate, eliminando i costi associati alla manutenzione dell'hardware fisico.
+
+### Vantaggi di IaaS
+- **Risparmio sui costi**: permette di evitare investimenti iniziali in hardware e infrastruttura.
+- **Maggior controllo**: offre agli utenti pieno controllo su macchine virtuali, reti e storage.
+- **Scalabilità**: si può scalare rapidamente in risposta ai cambiamenti nelle necessità di elaborazione o archiviazione.
+- **Accessibilità globale**: le risorse IaaS sono accessibili da qualsiasi parte del mondo, consentendo collaborazione e accesso remoto.
+
+### Esempi di fornitori di IaaS
+I principali fornitori di servizi IaaS includono:
+- **Google Cloud Compute Engine** (in Google Cloud Platform)
+- **Amazon Web Services (AWS)** con Amazon EC2
+- **Microsoft Azure** con le sue Virtual Machines
+
+### Differenza tra IaaS, PaaS e SaaS
+- **IaaS**: fornisce l'infrastruttura di base (macchine virtuali, storage, rete), mentre l'utente gestisce il sistema operativo e le applicazioni.
+- **PaaS (Platform as a Service)**: fornisce un ambiente già pronto per sviluppare, testare e distribuire applicazioni, senza bisogno di gestire l'infrastruttura sottostante.
+- **SaaS (Software as a Service)**: fornisce applicazioni completamente gestite e pronte per l'uso (es. Google Workspace o Microsoft 365).
+
+IaaS è l'opzione ideale per chi ha bisogno di controllo e flessibilità a livello di infrastruttura senza preoccuparsi dell’hardware fisico.
+
+
+
+
+
+
+
+
+
+
+
+
+
