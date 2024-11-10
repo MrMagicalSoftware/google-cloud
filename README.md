@@ -61,6 +61,10 @@ IaaS, o **Infrastructure as a Service**, è un modello di cloud computing in cui
 - **Pagamento basato sull'uso**: i servizi IaaS sono solitamente fatturati in base all'uso (pay-as-you-go). Si paga solo per le risorse effettivamente utilizzate, eliminando i costi associati alla manutenzione dell'hardware fisico.
 
 ### Vantaggi di IaaS
+
+IaaS è l'opzione ideale per chi ha bisogno di controllo e flessibilità a livello di infrastruttura senza preoccuparsi dell’hardware fisico.
+
+
 - **Risparmio sui costi**: permette di evitare investimenti iniziali in hardware e infrastruttura.
 - **Maggior controllo**: offre agli utenti pieno controllo su macchine virtuali, reti e storage.
 - **Scalabilità**: si può scalare rapidamente in risposta ai cambiamenti nelle necessità di elaborazione o archiviazione.
@@ -77,9 +81,9 @@ I principali fornitori di servizi IaaS includono:
 - **PaaS (Platform as a Service)**: fornisce un ambiente già pronto per sviluppare, testare e distribuire applicazioni, senza bisogno di gestire l'infrastruttura sottostante.
 - **SaaS (Software as a Service)**: fornisce applicazioni completamente gestite e pronte per l'uso (es. Google Workspace o Microsoft 365).
 
-IaaS è l'opzione ideale per chi ha bisogno di controllo e flessibilità a livello di infrastruttura senza preoccuparsi dell’hardware fisico.
 
 
+![Screenshot 2024-11-10 alle 17 06 43](https://github.com/user-attachments/assets/3f23961e-f0c3-4496-8ec8-bcda52acf281)
 
 
 
