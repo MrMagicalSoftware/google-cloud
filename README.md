@@ -116,6 +116,10 @@ l'erogazione di un pool di servizi informatici on demand su Internet, che posson
 
 
 
+![Screenshot 2024-11-10 alle 17 26 26](https://github.com/user-attachments/assets/28066781-b580-459b-9ae7-cf60ed3e1ff2)
+
+
+
 
 
 
