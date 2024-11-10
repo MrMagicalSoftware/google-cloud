@@ -313,6 +313,13 @@ La **Google Cloud Global Infrastructure** è l’infrastruttura globale di data 
    - I **Punti di Presenza (PoP)** sono hub di rete distribuiti in tutto il mondo che garantiscono un accesso rapido ai servizi Google Cloud. Google utilizza questi punti di accesso per instradare efficacemente il traffico e ridurre la latenza.
    - Google implementa inoltre sistemi di **caching** per ottimizzare la distribuzione dei contenuti, migliorando le performance per utenti globali, particolarmente per contenuti statici e file multimediali.
 
+
+![Screenshot 2024-11-10 alle 18 09 57](https://github.com/user-attachments/assets/3ac6d093-9e52-4679-8aed-d65b6be37e9a)
+
+
+
+
+
 #### 4. **Sicurezza dell’Infrastruttura**
    - Google adotta una serie di misure di sicurezza all’avanguardia per proteggere la sua infrastruttura, che comprendono **crittografia dei dati in transito e a riposo**, sistemi avanzati di rilevamento delle minacce e gestione delle identità e degli accessi.
    - L'infrastruttura di Google Cloud aderisce a numerose certificazioni di conformità, come **ISO/IEC 27001, SOC 1/2/3** e **GDPR**, rispettando rigorosi standard di sicurezza e privacy.
