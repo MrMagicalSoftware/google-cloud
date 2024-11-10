@@ -415,6 +415,12 @@ principali opzioni di servizi di calcolo (Compute) in Google Cloud:
      - Kubernetes gestito da Google, che si occupa di aggiornamenti, scaling e sicurezza.
      - Integrazione nativa con i servizi di rete, bilanciamento del carico e sicurezza di Google Cloud.
      - Supporto per cluster ibridi e multi-cloud tramite **Anthos**, che consente di gestire container su ambienti diversi.
+
+
+![Screenshot 2024-11-10 alle 18 35 16](https://github.com/user-attachments/assets/8f333001-c318-4abe-9fcd-9965749e51b5)
+
+
+
    
 ### 3. **App Engine**
    **Google App Engine** è una piattaforma **Platform as a Service (PaaS)** che consente agli sviluppatori di eseguire applicazioni senza dover gestire l'infrastruttura. Con App Engine, è possibile distribuire applicazioni in vari linguaggi di programmazione (come Python, Java, Go, PHP) in un ambiente scalabile e completamente gestito.
@@ -424,6 +430,16 @@ principali opzioni di servizi di calcolo (Compute) in Google Cloud:
      - Completamente gestito, con scalabilità automatica in base al traffico.
      - Nessuna configurazione del server: gli sviluppatori si concentrano solo sul codice.
      - Integrato con numerosi servizi di Google Cloud per semplificare la creazione di applicazioni complete.
+    
+![Screenshot 2024-11-10 alle 18 37 14](https://github.com/user-attachments/assets/e80da5d5-58c5-41a8-b62f-f965606a980a)
+
+
+
+
+
+
+
+
    
 ### 4. **Cloud Functions**
    **Cloud Functions** è il servizio **serverless di Function as a Service (FaaS)** di Google Cloud che permette di eseguire codice in risposta a eventi, senza dover gestire server o infrastruttura. Cloud Functions è ideale per task singoli, come rispondere a richieste HTTP, attivarsi in base a eventi di altri servizi (ad esempio, caricamento di file in Cloud Storage) o gestire eventi di integrazione.
@@ -433,6 +449,16 @@ principali opzioni di servizi di calcolo (Compute) in Google Cloud:
      - Esecuzione serverless: Google gestisce completamente le risorse di calcolo.
      - Scatta ed esegue il codice solo quando si verificano eventi specifici, riducendo i costi.
      - Facile da integrare con altri servizi di Google Cloud, come Pub/Sub e Cloud Storage.
+    
+
+![Screenshot 2024-11-10 alle 18 38 27](https://github.com/user-attachments/assets/e3095262-e833-448d-86e8-6275322ab3ca)
+
+![Screenshot 2024-11-10 alle 18 39 38](https://github.com/user-attachments/assets/5715afbf-59e0-48ef-80f0-19b57b468a28)
+
+
+
+
+
    
 ### 5. **Cloud Run**
    **Cloud Run** è una piattaforma serverless per eseguire **container** in risposta a richieste HTTP o eventi, senza gestire direttamente server o infrastruttura. Con Cloud Run, gli sviluppatori possono distribuire qualsiasi applicazione containerizzata senza dover gestire Kubernetes o macchine virtuali.
@@ -442,6 +468,16 @@ principali opzioni di servizi di calcolo (Compute) in Google Cloud:
      - Esecuzione serverless di container: scala automaticamente in base al traffico.
      - Basato su standard open-source (Knative), quindi supporta facilmente anche ambienti multi-cloud.
      - Opzione per configurare Cloud Run in modalità **Cloud Run for Anthos**, che consente di eseguire i carichi di lavoro su cluster Kubernetes esistenti.
+    
+
+
+ ![Screenshot 2024-11-10 alle 18 41 01](https://github.com/user-attachments/assets/7b12bf1d-7c69-4920-9875-f2a1d5b53963)
+
+
+
+
+
+
 
 ### Schema delle opzioni di Compute Service su Google Cloud
 
