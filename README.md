@@ -373,6 +373,89 @@ Recap :
 
 ![Screenshot 2024-11-10 alle 18 18 12](https://github.com/user-attachments/assets/97c3d877-2bc8-43f1-8609-96be4f875724)
 
+___________________________________________
+
+
+
+# Compute Service Options
+
+
+
+I servizi di **Compute** di Google Cloud offrono diverse opzioni per eseguire carichi di lavoro computazionali, con livelli di controllo, scalabilità e automazione diversi. Ogni servizio è progettato per supportare varie esigenze di sviluppo, dall'esecuzione di macchine virtuali personalizzate all'orchestrazione di container e all'hosting di applicazioni serverless.
+
+principali opzioni di servizi di calcolo (Compute) in Google Cloud:
+
+### 1. **Compute Engine**
+   **Compute Engine** è il servizio di **Infrastructure as a Service (IaaS)** di Google Cloud che consente di eseguire **macchine virtuali** (VM) personalizzate in ambiente cloud. Con Compute Engine, gli utenti hanno il controllo completo delle VM, inclusa la scelta del sistema operativo, delle risorse di memoria e di CPU, delle configurazioni di rete e delle opzioni di storage.
+
+   - **Ideale per**: carichi di lavoro tradizionali, applicazioni legacy, ambienti di sviluppo personalizzati e applicazioni che richiedono un controllo approfondito dell'infrastruttura.
+   - **Vantaggi**:
+     - Flessibilità nella scelta delle risorse e nelle configurazioni di rete.
+     - Ampio supporto per sistemi operativi, inclusi Linux e Windows.
+     - Opzioni di scalabilità automatica per adattare le risorse alle esigenze dei carichi di lavoro.
+   
+### 2. **Google Kubernetes Engine (GKE)**
+   **Google Kubernetes Engine** è un servizio di **container orchestration** che utilizza Kubernetes per gestire i **container** su larga scala. GKE offre un ambiente completamente gestito per eseguire e orchestrare applicazioni containerizzate, riducendo la complessità della gestione manuale dei cluster Kubernetes.
+
+   - **Ideale per**: applicazioni basate su microservizi, workload containerizzati e ambienti DevOps.
+   - **Vantaggi**:
+     - Kubernetes gestito da Google, che si occupa di aggiornamenti, scaling e sicurezza.
+     - Integrazione nativa con i servizi di rete, bilanciamento del carico e sicurezza di Google Cloud.
+     - Supporto per cluster ibridi e multi-cloud tramite **Anthos**, che consente di gestire container su ambienti diversi.
+   
+### 3. **App Engine**
+   **Google App Engine** è una piattaforma **Platform as a Service (PaaS)** che consente agli sviluppatori di eseguire applicazioni senza dover gestire l'infrastruttura. Con App Engine, è possibile distribuire applicazioni in vari linguaggi di programmazione (come Python, Java, Go, PHP) in un ambiente scalabile e completamente gestito.
+
+   - **Ideale per**: applicazioni web e mobile, prototipazione rapida, e startup che cercano di evitare la gestione dell’infrastruttura.
+   - **Vantaggi**:
+     - Completamente gestito, con scalabilità automatica in base al traffico.
+     - Nessuna configurazione del server: gli sviluppatori si concentrano solo sul codice.
+     - Integrato con numerosi servizi di Google Cloud per semplificare la creazione di applicazioni complete.
+   
+### 4. **Cloud Functions**
+   **Cloud Functions** è il servizio **serverless di Function as a Service (FaaS)** di Google Cloud che permette di eseguire codice in risposta a eventi, senza dover gestire server o infrastruttura. Cloud Functions è ideale per task singoli, come rispondere a richieste HTTP, attivarsi in base a eventi di altri servizi (ad esempio, caricamento di file in Cloud Storage) o gestire eventi di integrazione.
+
+   - **Ideale per**: automazione, task singoli, API semplici e integrazioni di microservizi.
+   - **Vantaggi**:
+     - Esecuzione serverless: Google gestisce completamente le risorse di calcolo.
+     - Scatta ed esegue il codice solo quando si verificano eventi specifici, riducendo i costi.
+     - Facile da integrare con altri servizi di Google Cloud, come Pub/Sub e Cloud Storage.
+   
+### 5. **Cloud Run**
+   **Cloud Run** è una piattaforma serverless per eseguire **container** in risposta a richieste HTTP o eventi, senza gestire direttamente server o infrastruttura. Con Cloud Run, gli sviluppatori possono distribuire qualsiasi applicazione containerizzata senza dover gestire Kubernetes o macchine virtuali.
+
+   - **Ideale per**: API, applicazioni web containerizzate, e carichi di lavoro stateless.
+   - **Vantaggi**:
+     - Esecuzione serverless di container: scala automaticamente in base al traffico.
+     - Basato su standard open-source (Knative), quindi supporta facilmente anche ambienti multi-cloud.
+     - Opzione per configurare Cloud Run in modalità **Cloud Run for Anthos**, che consente di eseguire i carichi di lavoro su cluster Kubernetes esistenti.
+
+### Schema delle opzioni di Compute Service su Google Cloud
+
+| **Servizio**            | **Tipo**       | **Controllo**            | **Gestione dell’infrastruttura** | **Ideale per**                            |
+|-------------------------|----------------|---------------------------|-----------------------------------|-------------------------------------------|
+| **Compute Engine**      | IaaS           | Alto                      | Utente                            | Applicazioni legacy, VM personalizzate    |
+| **Kubernetes Engine**   | Container      | Moderato                  | Google (Kubernetes gestito)       | Applicazioni containerizzate, microservizi|
+| **App Engine**          | PaaS           | Basso                     | Google                            | Applicazioni web e mobile                 |
+| **Cloud Functions**     | FaaS           | Molto basso               | Google                            | Task singoli, automazione                |
+| **Cloud Run**           | Serverless     | Moderato                  | Google                            | Applicazioni containerizzate stateless    |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
