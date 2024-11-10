@@ -120,6 +120,7 @@ l'erogazione di un pool di servizi informatici on demand su Internet, che posson
 
 
 
+**Cloud DEPLOYMENT Models**
 
 
 
@@ -128,7 +129,6 @@ l'erogazione di un pool di servizi informatici on demand su Internet, che posson
 
 
 ![Screenshot 2024-11-10 alle 17 11 40](https://github.com/user-attachments/assets/5264e080-b4bc-4f3c-82c7-a8f3a919fbd5)
-
 
 
 
