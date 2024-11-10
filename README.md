@@ -154,6 +154,9 @@ Il cloud pubblico è gestito da un provider di servizi esterno (come Google Clou
 
 2. Cloud Privato
 
+![Screenshot 2024-11-10 alle 17 37 55](https://github.com/user-attachments/assets/dd447915-60d6-4ed8-a5f4-73b6cc064746)
+
+
 Il cloud privato è dedicato a una singola organizzazione e può essere gestito internamente o da un provider esterno. In questo modello, l’infrastruttura cloud è progettata per offrire maggiore controllo e sicurezza, spesso su hardware dedicato che garantisce un ambiente isolato.
 
     Vantaggi:
