@@ -904,8 +904,16 @@ Kubernetes Engine: Un servizio gestito per eseguire e scalare applicazioni conta
 
 
 In Google Cloud, la **Resource Hierarchy** è la struttura gerarchica utilizzata per organizzare, gestire e assegnare autorizzazioni alle risorse nel cloud. Questa gerarchia è pensata per facilitare la gestione di progetti e risorse in modo scalabile, sicuro e facilmente configurabile, specialmente per aziende con più team o ambienti di sviluppo. La struttura consente di gestire autorizzazioni e configurazioni su vari livelli, che vengono poi applicate automaticamente ai livelli inferiori.
-
 ### Livelli della Resource Hierarchy di Google Cloud
+
+![Screenshot 2024-11-10 alle 22 33 55](https://github.com/user-attachments/assets/71456a16-baba-4548-a1a5-b796864e1226)
+
+![Screenshot 2024-11-10 alle 22 35 11](https://github.com/user-attachments/assets/b8169484-9574-4197-ab52-32832a743e75)
+
+
+![Screenshot 2024-11-10 alle 22 39 29](https://github.com/user-attachments/assets/a6476295-1eda-4ae7-900b-ccfacb20b79f)
+
+
 
 La gerarchia delle risorse di Google Cloud è composta da quattro livelli principali, disposti dall’alto verso il basso:
 
