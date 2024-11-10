@@ -980,6 +980,40 @@ Ogni livello della Resource Hierarchy consente di impostare policy e autorizzazi
 
 
 
+_________________________________________________________________________________________
+
+
+
+# Create a Free Tier Account
+
+ 
+
+![Screenshot 2024-11-10 alle 22 44 32](https://github.com/user-attachments/assets/01f20925-1ceb-4591-8756-00f381ca2daa)
+
+
+![Screenshot 2024-11-10 alle 22 45 25](https://github.com/user-attachments/assets/fd699993-2a4b-4a06-a868-d6f0bfee828b)
+
+
+
+Accesso a tutti i prodotti Google Cloud
+
+Ottieni tutto il necessario per creare e gestire applicazioni, siti web e servizi, tra cui Firebase e l'API di Google Maps.
+300 $ di credito gratis
+
+Google Cloud al tuo servizio con 300 $ di credito da spendere nei prossimi 90 giorni.
+Nessun addebito automatico alla fine della prova gratuita
+
+Ti chiediamo i dati della carta di credito per essere certi che tu non sia un robot. Se utilizzi una carta di credito o di debito, non ti verrà addebitato alcun costo, a meno che non attivi manualmente l'account completo
+
+
+
+https://cloud.google.com/free?hl=it
+
+
+
+
+
+
 
 
 
