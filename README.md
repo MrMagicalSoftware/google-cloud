@@ -12,7 +12,7 @@
 
 Google Cloud, o Google Cloud Platform (GCP), è una suite di servizi cloud offerti da Google, progettati per supportare aziende, sviluppatori e utenti singoli nella gestione di infrastrutture, dati e applicazioni in un ambiente sicuro e scalabile. GCP offre una vasta gamma di servizi che spaziano dall'elaborazione dei dati alla gestione di macchine virtuali, database, strumenti di machine learning e molto altro.
 
-Ecco una panoramica dei servizi principali di GCP:
+Panoramica dei servizi principali di GCP:
 
 ### 1. **Compute Engine**
    È il servizio di infrastruttura come servizio (IaaS) di Google, che permette di creare e gestire macchine virtuali in esecuzione su hardware dedicato. Compute Engine offre flessibilità e scalabilità, supportando ambienti di sviluppo, test e produzione.
