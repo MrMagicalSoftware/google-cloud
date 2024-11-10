@@ -170,6 +170,9 @@ Il cloud privato è dedicato a una singola organizzazione e può essere gestito 
 
 3. Cloud Ibrido
 
+![Screenshot 2024-11-10 alle 17 39 32](https://github.com/user-attachments/assets/294ed75f-8ca1-4233-9500-625684aee982)
+
+
 Il cloud ibrido combina elementi del cloud pubblico e del cloud privato, permettendo alle organizzazioni di sfruttare i vantaggi di entrambi i modelli. Le aziende possono mantenere i dati sensibili o i carichi di lavoro critici nel cloud privato, utilizzando invece il cloud pubblico per carichi di lavoro meno critici o per gestire picchi di utilizzo.
 
     Vantaggi:
