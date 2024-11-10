@@ -384,7 +384,7 @@ ___________________________________________
 I servizi di **Compute** di Google Cloud offrono diverse opzioni per eseguire carichi di lavoro computazionali, con livelli di controllo, scalabilità e automazione diversi. Ogni servizio è progettato per supportare varie esigenze di sviluppo, dall'esecuzione di macchine virtuali personalizzate all'orchestrazione di container e all'hosting di applicazioni serverless.
 
 
-![Screenshot 2024-11-10 alle 18 26 41](https://github.com/user-attachments/assets/ce65e569-6455-4208-8017-6cd0cef47dd0)
+![Screenshot 2024-11-10 alle 18 29 52](https://github.com/user-attachments/assets/0469600e-6e00-4d03-9ccd-2bccda1657a9)
 
 
 
@@ -398,7 +398,15 @@ principali opzioni di servizi di calcolo (Compute) in Google Cloud:
      - Flessibilità nella scelta delle risorse e nelle configurazioni di rete.
      - Ampio supporto per sistemi operativi, inclusi Linux e Windows.
      - Opzioni di scalabilità automatica per adattare le risorse alle esigenze dei carichi di lavoro.
-   
+
+![Screenshot 2024-11-10 alle 18 31 56](https://github.com/user-attachments/assets/03b825de-1b2a-4a88-bb06-67bd8adcff96)
+
+![Screenshot 2024-11-10 alle 18 33 12](https://github.com/user-attachments/assets/ef6552c7-6663-463e-a206-86d4e4e747e6)
+
+
+
+
+
 ### 2. **Google Kubernetes Engine (GKE)**
    **Google Kubernetes Engine** è un servizio di **container orchestration** che utilizza Kubernetes per gestire i **container** su larga scala. GKE offre un ambiente completamente gestito per eseguire e orchestrare applicazioni containerizzate, riducendo la complessità della gestione manuale dei cluster Kubernetes.
 
