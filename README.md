@@ -757,6 +757,120 @@ La **disponibilità** di **Google Cloud Storage** indica la probabilità che i d
 
 
 
+_________________________________________________________________________________________________________________________________________
+
+
+
+# Networking Services 
+
+
+
+
+Google Cloud offre vari servizi di **networking** che permettono di configurare, gestire e ottimizzare la connettività delle risorse cloud in modo sicuro, veloce e scalabile. Questi servizi coprono aspetti come la connettività di rete globale, il bilanciamento del carico, la sicurezza di rete e l'interconnessione con ambienti on-premise.
+
+L'interconnessione con ambienti on-premise da possibilità di collegare in modo sicuro e diretto la rete locale dell'azienda (ovvero le risorse on-premise, che si trovano fisicamente presso la sede dell'organizzazione o in data center privati) con la rete di un provider di cloud pubblico, come Google Cloud.
+
+Questa connessione consente di creare un ambiente ibrido, in cui le risorse locali e quelle cloud possono funzionare insieme come se fossero parte di un'unica rete. L'interconnessione offre vantaggi in termini di flessibilità e scalabilità: le aziende possono mantenere parte delle loro risorse critiche o regolamentate on-premise, utilizzando il cloud per altre attività o per espandere rapidamente la capacità.
+
+
+### Principali Servizi di Networking su Google Cloud
+
+1. **Virtual Private Cloud (VPC)**
+   - **Descrizione**: VPC è una rete privata virtuale che consente di collegare, isolare e gestire risorse cloud su una rete globale scalabile. Ogni VPC è definita dall'utente e può essere configurata per gestire il routing, firewall e subnet specifiche.
+   - **Funzionalità principali**:
+     - **Subnet IP personalizzabili**: Configurazione di range IP personalizzati per isolare e controllare il traffico.
+     - **Peering VPC**: Collega VPC diversi in modo privato senza necessità di IP pubblici.
+     - **Firewall e routing**: Firewall personalizzati per autorizzare o limitare il traffico, con opzioni di routing avanzate.
+   - **Ideale per**: Isolare le risorse di rete, creare reti ibride e gestire le comunicazioni tra progetti e regioni.
+
+![Screenshot 2024-11-10 alle 22 06 17](https://github.com/user-attachments/assets/8f23e7a0-73c0-4fff-9cdc-769530285edd)
+
+![Screenshot 2024-11-10 alle 22 08 41](https://github.com/user-attachments/assets/bc169f99-5beb-40d2-a4ff-1c76d052d860)
+
+
+
+
+2. **Cloud Load Balancing**
+   - **Descrizione**: Un sistema di bilanciamento del carico completamente gestito, progettato per distribuire il traffico in modo efficace su diverse risorse di backend a livello globale. Supporta vari tipi di bilanciamento per differenti casi d'uso, come bilanciamento HTTP(S), TCP, UDP e bilanciamento del carico interno.
+   - **Tipi**:
+     - **Global HTTP(S) Load Balancer**: Bilanciamento a livello globale per app e servizi web.
+     - **TCP/UDP Load Balancer**: Bilanciamento per applicazioni TCP o UDP.
+     - **Internal Load Balancer**: Per distribuire traffico tra risorse interne alla rete privata.
+   - **Ideale per**: Applicazioni ad alta disponibilità, ridistribuzione del traffico e miglioramento delle prestazioni a livello globale.
+
+3. **Cloud CDN (Content Delivery Network)**
+   - **Descrizione**: CDN completamente gestito che riduce la latenza e migliora le prestazioni per contenuti web statici. Distribuisce i contenuti agli utenti da nodi globali vicini, riducendo i tempi di risposta.
+   - **Funzionalità principali**:
+     - **Caching**: Riduce la latenza memorizzando in cache i contenuti richiesti di frequente.
+     - **Integrazione con Load Balancer**: Funziona con Cloud Load Balancing per fornire contenuti in modo scalabile e ottimizzato.
+     - **Gestione del traffico**: Dirige il traffico al nodo più vicino all'utente.
+   - **Ideale per**: Distribuire contenuti web statici, migliorare la latenza e ottimizzare l’esperienza utente globale.
+
+4. **Cloud Interconnect**
+   - **Descrizione**: Servizio per stabilire una connessione fisica diretta tra la rete on-premise e Google Cloud, riducendo latenza e costi di banda rispetto a connessioni internet standard.
+   - **Tipi**:
+     - **Dedicated Interconnect**: Connessione diretta con Google tramite porte dedicate (da 10 o 100 Gbps).
+     - **Partner Interconnect**: Connessione tramite partner di Google per velocità minori o regioni non supportate.
+   - **Ideale per**: Applicazioni con bassi requisiti di latenza e grandi volumi di trasferimento dati, collegamenti sicuri con ambienti on-premise.
+
+5. **Cloud VPN**
+   - **Descrizione**: Connessione sicura tra Google Cloud e un ambiente on-premise o altra cloud tramite VPN, crittografando il traffico tra le reti.
+   - **Tipi**:
+     - **IPsec VPN**: Connessione VPN basata su IPsec per alta sicurezza e crittografia del traffico.
+     - **HA VPN**: Fornisce un'alta disponibilità per le connessioni VPN.
+   - **Ideale per**: Collegare ambienti on-premise e Google Cloud in modo sicuro, creando una rete ibrida.
+
+6. **Cloud DNS**
+   - **Descrizione**: Servizio di gestione DNS (Domain Name System) che offre DNS globale, scalabile e ad alta disponibilità, per risolvere i nomi di dominio di risorse in Google Cloud.
+   - **Funzionalità principali**:
+     - **DNS gestito**: Risoluzione DNS veloce e sicura con configurazione semplice.
+     - **DNS pubblico e privato**: Supporta sia la risoluzione pubblica che quella interna alla rete.
+   - **Ideale per**: Applicazioni distribuite, configurazione DNS sicura e ad alte prestazioni.
+
+7. **Traffic Director**
+   - **Descrizione**: Servizio di gestione del traffico per configurare e controllare il traffico tra i servizi su Google Cloud, progettato per scenari di service mesh. Consente un controllo avanzato con funzionalità come il bilanciamento del carico lato client, il failover automatico e il routing basato su criteri.
+   - **Funzionalità principali**:
+     - **Service mesh**: Ottimizzazione delle comunicazioni tra microservizi.
+     - **Failover e bilanciamento avanzato**: Gestione avanzata del traffico per garantire la resilienza dei servizi.
+   - **Ideale per**: Applicazioni basate su microservizi, gestione del traffico tra servizi su larga scala.
+
+8. **Network Intelligence Center**
+   - **Descrizione**: Una suite di strumenti per monitorare, risolvere problemi e ottimizzare le reti in Google Cloud. Include funzionalità di analisi della topologia, diagnostica del percorso e monitoraggio del traffico.
+   - **Funzionalità principali**:
+     - **Topology Viewer**: Visualizza la struttura della rete per una gestione più intuitiva.
+     - **Performance Dashboard**: Monitoraggio e analisi delle prestazioni.
+     - **Network Troubleshooter**: Diagnostica e risolve i problemi di connettività.
+   - **Ideale per**: Monitoraggio continuo della rete, ottimizzazione delle prestazioni e gestione delle configurazioni.
+
+### Tabella Riepilogativa
+
+| **Servizio**                   | **Descrizione**                                                          | **Ideale per**                                                |
+|--------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+| **VPC**                        | Rete privata virtuale scalabile e configurabile                          | Isolamento delle risorse, reti ibride                         |
+| **Cloud Load Balancing**       | Bilanciamento del carico globale per app ad alta disponibilità           | Ridistribuzione del traffico, alta disponibilità              |
+| **Cloud CDN**                  | CDN per distribuire contenuti statici in modo veloce                     | Ottimizzazione delle prestazioni e della latenza              |
+| **Cloud Interconnect**         | Connessione diretta tra Google Cloud e rete on-premise                   | Collegamento a bassa latenza per ambienti ibridi              |
+| **Cloud VPN**                  | VPN sicura per reti ibride                                               | Connessione sicura on-premise/Google Cloud                    |
+| **Cloud DNS**                  | Gestione DNS ad alte prestazioni e scalabile                             | Configurazione DNS per applicazioni cloud e distribuite       |
+| **Traffic Director**           | Gestione avanzata del traffico per architetture basate su microservizi   | Service mesh e ottimizzazione del traffico                    |
+| **Network Intelligence Center**| Monitoraggio e risoluzione di problemi di rete                          | Diagnostica e ottimizzazione della rete cloud                 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
