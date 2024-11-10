@@ -132,6 +132,75 @@ l'erogazione di un pool di servizi informatici on demand su Internet, che posson
 
 
 
+I modelli di cloud deployment definiscono il modo in cui un’infrastruttura cloud è implementata e utilizzata.
+
+la scelta del modello di cloud deployment dipende dalle esigenze dell’organizzazione in termini di sicurezza, controllo, flessibilità e costo. Molte aziende adottano approcci ibridi o multi-cloud per ottenere un bilanciamento ottimale tra sicurezza e scalabilità.
+
+
+
+I principali modelli di deployment nel cloud sono:
+1. Cloud Pubblico
+
+Il cloud pubblico è gestito da un provider di servizi esterno (come Google Cloud, AWS, o Microsoft Azure) che mette a disposizione le risorse cloud (server, storage, rete) su un’infrastruttura condivisa e accessibile via Internet. In questo modello, le risorse sono condivise tra diversi utenti (multi-tenant), mantenendo comunque la separazione dei dati tra i clienti.
+
+    Vantaggi:
+        Bassi costi iniziali e manutenzione ridotta, poiché l’infrastruttura è gestita dal provider.
+        Alta scalabilità per gestire le esigenze in crescita o stagionali.
+        Accesso a una vasta gamma di servizi e tecnologie innovative.
+
+    Svantaggi:
+        Maggiore dipendenza dal provider per la sicurezza e la privacy.
+        Possibili problemi di latenza, specialmente se i server sono lontani dall’utente.
+
+2. Cloud Privato
+
+Il cloud privato è dedicato a una singola organizzazione e può essere gestito internamente o da un provider esterno. In questo modello, l’infrastruttura cloud è progettata per offrire maggiore controllo e sicurezza, spesso su hardware dedicato che garantisce un ambiente isolato.
+
+    Vantaggi:
+        Maggiore sicurezza e controllo sui dati e sull’infrastruttura.
+        Ideale per le organizzazioni con requisiti di conformità e regolamentazione elevati.
+        Minore rischio di latenza, poiché il cloud è spesso ospitato presso la sede dell’organizzazione.
+
+    Svantaggi:
+        Costi elevati per l’acquisto e la manutenzione dell’infrastruttura.
+        Scalabilità limitata rispetto al cloud pubblico.
+
+3. Cloud Ibrido
+
+Il cloud ibrido combina elementi del cloud pubblico e del cloud privato, permettendo alle organizzazioni di sfruttare i vantaggi di entrambi i modelli. Le aziende possono mantenere i dati sensibili o i carichi di lavoro critici nel cloud privato, utilizzando invece il cloud pubblico per carichi di lavoro meno critici o per gestire picchi di utilizzo.
+
+    Vantaggi:
+        Maggiore flessibilità: consente di adattare i carichi di lavoro tra cloud pubblico e privato in base alle esigenze.
+        Maggiore efficienza sui costi: le aziende possono utilizzare il cloud pubblico per esigenze temporanee o inaspettate.
+        Bilanciamento della sicurezza e della scalabilità.
+
+    Svantaggi:
+        Complessità di gestione e integrazione tra cloud pubblico e privato.
+        Maggiore necessità di coordinamento tra i due ambienti per garantire la compatibilità.
+
+4. Multi-Cloud
+
+Il multi-cloud implica l'uso di più provider di cloud pubblico (ad esempio, AWS, Google Cloud e Azure) all'interno della stessa organizzazione. È utile per evitare la dipendenza da un singolo fornitore (vendor lock-in), distribuendo il rischio e sfruttando i punti di forza di ciascun provider.
+
+    Vantaggi:
+        Maggiore flessibilità: si possono scegliere i servizi migliori tra diversi provider.
+        Riduzione del rischio di dipendenza da un singolo provider.
+        Ottimizzazione dei costi: possibilità di scegliere il fornitore più economico per ciascun servizio.
+
+    Svantaggi:
+        Maggiore complessità nella gestione e nel monitoraggio delle risorse.
+        Possibili problemi di compatibilità e integrazione tra i servizi dei diversi provider.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
