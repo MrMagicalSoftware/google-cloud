@@ -182,6 +182,9 @@ Il cloud ibrido combina elementi del cloud pubblico e del cloud privato, permett
 
 Il multi-cloud implica l'uso di più provider di cloud pubblico (ad esempio, AWS, Google Cloud e Azure) all'interno della stessa organizzazione. È utile per evitare la dipendenza da un singolo fornitore (vendor lock-in), distribuendo il rischio e sfruttando i punti di forza di ciascun provider.
 
+![Screenshot 2024-11-10 alle 17 34 05](https://github.com/user-attachments/assets/59eda000-96fe-43e9-8034-be3e2b3f4737)
+
+
     Vantaggi:
         Maggiore flessibilità: si possono scegliere i servizi migliori tra diversi provider.
         Riduzione del rischio di dipendenza da un singolo provider.
