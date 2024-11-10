@@ -879,6 +879,110 @@ Questa connessione consente di creare un ambiente ibrido, in cui le risorse loca
 
 
 
+___________________________________________________________________________________________
+
+
+
+# RESOURCE HIERARCHY
+
+
+RISORSE :
+
+Esempi di Risorse in Google Cloud
+
+Alcuni tipi comuni di risorse in Google Cloud includono:
+
+    Compute Engine (Macchine Virtuali): Rappresentano istanze di macchine virtuali che eseguono applicazioni, simili ai server fisici, ma scalabili e configurabili nel cloud.
+
+    Cloud Storage Bucket: Spazi di archiviazione utilizzati per conservare file, immagini, video e altri dati non strutturati. Sono adatti per archiviare e recuperare file di grandi dimensioni.
+
+    Cloud SQL e BigQuery: Servizi di database. Cloud SQL è per database relazionali, mentre BigQuery è un data warehouse scalabile e adatto per analisi di big data.
+
+    App Engine: Piattaforma serverless per distribuire e scalare automaticamente applicazioni web e mobile senza dover gestire l'infrastruttura.
+
+    Cloud Pub/Sub: Sistema di messaggistica per inviare e ricevere messaggi in tempo reale, utilizzato per costruire sistemi di comunicazione tra componenti distribuiti.
+
+    Kubernetes Engine: Un servizio gestito per eseguire e scalare applicazioni containerizzate tramite Kubernetes.
+
+
+![Screenshot 2024-11-10 alle 22 29 00](https://github.com/user-attachments/assets/248447a4-1f0d-4f49-955f-0ef9151cf295)
+
+
+
+In Google Cloud, la **Resource Hierarchy** è la struttura gerarchica utilizzata per organizzare, gestire e assegnare autorizzazioni alle risorse nel cloud. Questa gerarchia è pensata per facilitare la gestione di progetti e risorse in modo scalabile, sicuro e facilmente configurabile, specialmente per aziende con più team o ambienti di sviluppo. La struttura consente di gestire autorizzazioni e configurazioni su vari livelli, che vengono poi applicate automaticamente ai livelli inferiori.
+
+### Livelli della Resource Hierarchy di Google Cloud
+
+La gerarchia delle risorse di Google Cloud è composta da quattro livelli principali, disposti dall’alto verso il basso:
+
+1. **Organizzazione**
+   - **Descrizione**: Rappresenta l'entità di livello più alto nella gerarchia. Di solito corrisponde a una singola azienda o organizzazione e permette di centralizzare la gestione delle risorse aziendali.
+   - **Gestione**: L'account super amministratore dell'organizzazione può impostare policy e controllare le risorse a livello globale.
+   - **Funzionalità principali**:
+     - Controllo centralizzato su tutte le risorse dell’organizzazione.
+     - Applicazione di policy di sicurezza e conformità a tutte le risorse sottostanti.
+   - **Esempio d'uso**: Un'azienda che vuole avere una governance unificata su tutte le sue risorse Google Cloud.
+
+2. **Folder (Cartella)**
+   - **Descrizione**: Le cartelle aiutano a organizzare i progetti in modo logico all'interno dell'organizzazione. Possono essere utilizzate per rappresentare dipartimenti aziendali, team o ambienti (ad esempio, produzione, sviluppo).
+   - **Gestione**: Ogni cartella può avere policy di sicurezza e autorizzazioni specifiche che vengono applicate automaticamente alle risorse al suo interno.
+   - **Funzionalità principali**:
+     - Struttura logica per organizzare e gestire progetti multipli.
+     - Eredità delle policy: le policy impostate su una cartella vengono ereditate da tutte le risorse figlie.
+   - **Esempio d'uso**: Una cartella "Produzione" con autorizzazioni limitate per il team operativo e una cartella "Sviluppo" con più accesso per i team di sviluppo e testing.
+
+3. **Progetto (Project)**
+   - **Descrizione**: È il livello base per la gestione e l’organizzazione delle risorse in Google Cloud. Ogni risorsa (macchine virtuali, database, bucket di storage, ecc.) deve appartenere a un progetto. È su questo livello che vengono impostati i budget, la fatturazione e le configurazioni di rete.
+   - **Gestione**: Ogni progetto ha un proprio ID univoco e può essere associato a un budget di fatturazione, oltre che a specifiche impostazioni di sicurezza.
+   - **Funzionalità principali**:
+     - Controllo dettagliato delle risorse e dei permessi di accesso.
+     - Configurazione separata per rete, fatturazione e monitoraggio per progetto.
+   - **Esempio d'uso**: Un progetto chiamato "App Mobile" per contenere tutte le risorse necessarie a un’applicazione mobile aziendale.
+
+4. **Risorse (Resources)**
+   - **Descrizione**: Sono le entità più specifiche e rappresentano i servizi di Google Cloud, come le istanze di macchine virtuali (Compute Engine), i bucket di Cloud Storage, i database, le funzioni serverless, ecc.
+   - **Gestione**: Ogni risorsa eredità le policy impostate a livello di progetto, cartella o organizzazione.
+   - **Esempio di Risorse**:
+     - Istanza di **Compute Engine**: una macchina virtuale per l’esecuzione di applicazioni.
+     - **Cloud Storage Bucket**: spazio di archiviazione per i dati.
+     - **Cloud SQL Instance**: database relazionale gestito.
+
+### Eredità delle Policy di Sicurezza e Accesso
+
+Le autorizzazioni e le policy impostate a livello di organizzazione vengono automaticamente applicate a tutti i livelli inferiori, dalle cartelle fino alle singole risorse. Questo sistema permette di gestire le policy in modo centralizzato:
+
+- **Policy a Livello di Organizzazione**: Applicate a tutte le risorse aziendali.
+- **Policy a Livello di Cartella**: Possono essere personalizzate per settori o team, sovrascrivendo le impostazioni di livello organizzativo quando necessario.
+- **Policy a Livello di Progetto**: Permettono il controllo specifico sulle risorse di uno specifico progetto.
+- **Policy a Livello di Risorsa**: Per regolare permessi dettagliati sulle singole risorse, come accesso specifico a una singola macchina virtuale.
+
+### Esempio di Resource Hierarchy
+
+un'azienda con diversi team e progetti, come segue:
+
+- **Organizzazione**: "XYZ Corp"
+  - **Cartella "Produzione"**
+    - **Progetto "App E-commerce"**
+      - Compute Engine per il server backend
+      - Cloud Storage per i dati dei clienti
+    - **Progetto "ERP"**
+      - Cloud SQL per database aziendale
+  - **Cartella "Sviluppo"**
+    - **Progetto "Sito Web"**
+      - Compute Engine per ambiente di test
+    - **Progetto "Analytics"**
+      - BigQuery per analisi dei dati di produzione
+
+Ogni livello della Resource Hierarchy consente di impostare policy e autorizzazioni appropriate, mantenendo le risorse organizzate e sicure.
+
+
+
+
+
+
+
+
+
 
 
 
