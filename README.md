@@ -347,6 +347,31 @@ La **Google Cloud Global Infrastructure** è l’infrastruttura globale di data 
 ![Screenshot 2024-11-10 alle 18 02 51](https://github.com/user-attachments/assets/ae0c36c7-d5ec-4722-988c-298fad031c5e)
 
 
+**Zone**
+
+
+![Screenshot 2024-11-10 alle 18 13 07](https://github.com/user-attachments/assets/293b5038-5a08-4211-9ed3-c9151deced70)
+
+
+
+
+**Regione**
+
+Una regione è una collections di Zone
+
+
+![Screenshot 2024-11-10 alle 18 15 29](https://github.com/user-attachments/assets/f73b7b5e-2995-4746-b814-60e54f64ae84)
+
+
+
+**Multi-region**
+
+![Screenshot 2024-11-10 alle 18 17 18](https://github.com/user-attachments/assets/cfb7ba78-38f6-4a99-926f-d7ffb1ca867d)
+
+
+Recap :
+
+![Screenshot 2024-11-10 alle 18 18 12](https://github.com/user-attachments/assets/97c3d877-2bc8-43f1-8609-96be4f875724)
 
 
 
