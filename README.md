@@ -291,6 +291,13 @@ La **Google Cloud Global Infrastructure** è l’infrastruttura globale di data 
 
 #### 2. **Rete Privata Globale**
    - Google Cloud possiede e gestisce una delle reti private più vaste al mondo, che include **cavi sottomarini privati** e collegamenti di rete ad alta velocità. Questo assicura una bassa latenza, elevata velocità di trasferimento dati e sicurezza.
+
+
+![Screenshot 2024-11-10 alle 18 04 46](https://github.com/user-attachments/assets/4120cc6d-6f68-434d-bdc1-86ffdd3ac1b4)
+
+
+
+
    - La rete globale di Google permette anche il **peering** diretto con altre reti, ottimizzando ulteriormente la connettività tra i suoi data center e offrendo una connettività diretta e sicura verso altre piattaforme cloud o on-premises.
 
 #### 3. **Punti di Presenza (PoP) e Caching**
