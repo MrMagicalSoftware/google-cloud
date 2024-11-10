@@ -891,12 +891,12 @@ RISORSE :
 Esempi di Risorse in Google Cloud
 
 Alcuni tipi comuni di risorse in Google Cloud includono:
-1.Compute Engine (Macchine Virtuali): Rappresentano istanze di macchine virtuali che eseguono applicazioni, simili ai server fisici, ma scalabili e configurabili nel cloud.
-2.Cloud Storage Bucket: Spazi di archiviazione utilizzati per conservare file, immagini, video e altri dati non strutturati. Sono adatti per archiviare e recuperare file di grandi dimensioni.
-3.Cloud SQL e BigQuery: Servizi di database. Cloud SQL è per database relazionali, mentre BigQuery è un data warehouse scalabile e adatto per analisi di big data.
-4.App Engine: Piattaforma serverless per distribuire e scalare automaticamente applicazioni web e mobile senza dover gestire l'infrastruttura.
-5.Cloud Pub/Sub: Sistema di messaggistica per inviare e ricevere messaggi in tempo reale, utilizzato per costruire sistemi di comunicazione tra componenti distribuiti.
-Kubernetes Engine: Un servizio gestito per eseguire e scalare applicazioni containerizzate tramite Kubernetes.
+1.Compute Engine (Macchine Virtuali): Rappresentano istanze di macchine virtuali che eseguono applicazioni, simili ai server fisici, ma scalabili e configurabili nel cloud.<br><br>
+2.Cloud Storage Bucket: Spazi di archiviazione utilizzati per conservare file, immagini, video e altri dati non strutturati. Sono adatti per archiviare e recuperare file di grandi dimensioni.<br>
+3.Cloud SQL e BigQuery: Servizi di database. Cloud SQL è per database relazionali, mentre BigQuery è un data warehouse scalabile e adatto per analisi di big data.<br>
+4.App Engine: Piattaforma serverless per distribuire e scalare automaticamente applicazioni web e mobile senza dover gestire l'infrastruttura.<br>
+5.Cloud Pub/Sub: Sistema di messaggistica per inviare e ricevere messaggi in tempo reale, utilizzato per costruire sistemi di comunicazione tra componenti distribuiti.<br>
+Kubernetes Engine: Un servizio gestito per eseguire e scalare applicazioni containerizzate tramite Kubernetes.<br><br>
 
 
 ![Screenshot 2024-11-10 alle 22 29 00](https://github.com/user-attachments/assets/248447a4-1f0d-4f49-955f-0ef9151cf295)
