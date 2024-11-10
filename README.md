@@ -214,6 +214,11 @@ ________________________
 
 Con X che varia :
 
+![Screenshot 2024-11-10 alle 17 47 20](https://github.com/user-attachments/assets/15476a99-333f-4c62-8ca8-f6bbeb9527ef)
+
+
+
+
 
 I **modelli di servizio del cloud** (o **cloud service models**) definiscono il livello di controllo, gestione e automazione delle risorse IT fornito da un provider cloud. Esistono tre principali modelli di servizio:
 
@@ -264,6 +269,7 @@ I **modelli di servizio del cloud** (o **cloud service models**) definiscono il 
 
 
 
+![Screenshot 2024-11-10 alle 17 50 04](https://github.com/user-attachments/assets/072ca144-6100-42b4-ad88-b264b0ea604e)
 
 
 
