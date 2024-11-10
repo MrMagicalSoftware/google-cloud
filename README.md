@@ -97,7 +97,7 @@ l'erogazione di un pool di servizi informatici on demand su Internet, che posson
 >Databases
 
 
-** Le 5 caratteristiche del cloud**
+**Le 5 caratteristiche del cloud**
 
 1) On-demand Self Service
    (Provision reseources automatically without requiring human interaction)
