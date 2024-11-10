@@ -497,6 +497,143 @@ principali opzioni di servizi di calcolo (Compute) in Google Cloud:
 
 
 
+_________________________________________________
+
+
+
+
+# Storage and Database Options
+
+
+
+Google Cloud offre una vasta gamma di opzioni di **storage** e **database** per gestire dati di ogni tipo, da file e oggetti a database relazionali e non relazionali, ognuno progettato per scopi diversi e ottimizzato per esigenze specifiche di prestazioni, disponibilità e scalabilità. 
+
+
+
+
+### Storage Options
+
+1. **Cloud Storage**
+   - **Tipo**: Storage di oggetti.
+   - **Descrizione**: Un servizio di archiviazione di oggetti per memorizzare file di ogni tipo (video, immagini, backup) su larga scala, accessibili via HTTP o HTTPS. Supporta varie classi di storage in base alla frequenza di accesso ai dati (Standard, Nearline, Coldline, Archive).
+   - **Ideale per**: Archiviazione di dati non strutturati, backup e recupero di emergenza, archivi a lungo termine, content delivery.
+   - **Vantaggi**:
+     - Sicurezza avanzata e ridondanza globale.
+     - Semplice integrazione con altri servizi Google Cloud.
+     - Costo variabile a seconda della frequenza di accesso.
+
+![Screenshot 2024-11-10 alle 21 42 04](https://github.com/user-attachments/assets/3175a706-ba2e-4ae3-9f81-832670f1b501)
+
+**Cloude Storage Classes :**
+
+
+![Screenshot 2024-11-10 alle 21 44 17](https://github.com/user-attachments/assets/4e3398b2-588d-4b62-b82e-3774fb91c673)
+
+
+
+![Screenshot 2024-11-10 alle 21 45 49](https://github.com/user-attachments/assets/e8372918-cde4-41d5-88c7-bc8d7be12830)
+
+
+
+
+
+
+
+2. **Persistent Disk**
+   - **Tipo**: Block storage.
+   - **Descrizione**: Storage persistente per macchine virtuali su **Compute Engine** e **Google Kubernetes Engine**. Offre dischi standard, SSD e bilanciamento delle prestazioni e dei costi.
+   - **Ideale per**: Applicazioni che richiedono elevate IOPS, database su VM, storage per container su GKE.
+   - **Vantaggi**:
+     - Prestazioni prevedibili e bassa latenza.
+     - Ridimensionamento dinamico e backup incrementali.
+
+3. **Filestore**
+   - **Tipo**: File storage.
+   - **Descrizione**: Soluzione di storage di file completamente gestita compatibile con il protocollo NFS, per supportare applicazioni che richiedono una struttura di file system.
+   - **Ideale per**: Applicazioni che richiedono accesso diretto ai file, backup e restore di database, workload di machine learning e rendering.
+   - **Vantaggi**:
+     - Facile integrazione con VM e container.
+     - Performance configurabili in base al carico di lavoro.
+
+4. **Local SSD**
+   - **Tipo**: Storage su disco locale.
+   - **Descrizione**: Storage su SSD locale a bassa latenza, collegato direttamente alle VM su Compute Engine, per carichi di lavoro con alti requisiti di IOPS e bassa latenza.
+   - **Ideale per**: Applicazioni ad alte prestazioni che richiedono un accesso rapido ai dati, come database ad alta velocità.
+   - **Vantaggi**:
+     - Prestazioni molto elevate e tempi di accesso rapidi.
+     - Progettato per supportare carichi intensivi in lettura e scrittura.
+
+### Database Options
+
+1. **Cloud SQL**
+   - **Tipo**: Database relazionale (SQL).
+   - **Descrizione**: Database completamente gestito per MySQL, PostgreSQL e SQL Server. Consente di configurare, mantenere e scalare database relazionali nel cloud.
+   - **Ideale per**: Applicazioni che richiedono la struttura relazionale di SQL, come CRM, ERP e applicazioni web.
+   - **Vantaggi**:
+     - Gestione automatizzata di backup, patch e scaling.
+     - Sicurezza integrata con crittografia, autenticazione e conformità.
+     - Alta disponibilità con failover automatico.
+
+2. **Cloud Spanner**
+   - **Tipo**: Database distribuito relazionale (SQL).
+   - **Descrizione**: Database relazionale globale scalabile e distribuito, progettato per applicazioni di livello enterprise che richiedono scalabilità e transazioni multi-regione.
+   - **Ideale per**: Applicazioni globali e mission-critical che richiedono alta coerenza e scalabilità orizzontale.
+   - **Vantaggi**:
+     - Scalabilità globale e forte coerenza dei dati.
+     - Compatibilità con SQL e gestione automatica dei dati.
+
+3. **Bigtable**
+   - **Tipo**: Database NoSQL a colonne.
+   - **Descrizione**: Database NoSQL scalabile progettato per gestire grandi volumi di dati (fino a petabyte), con una struttura a colonne per applicazioni che richiedono bassa latenza e throughput elevato.
+   - **Ideale per**: Dati temporali, analisi IoT, motori di raccomandazione e analytics in tempo reale.
+   - **Vantaggi**:
+     - Alta disponibilità e bassa latenza.
+     - Perfetto per dataset molto grandi, strutturati e scalabili.
+
+4. **Firestore**
+   - **Tipo**: Database NoSQL documentale.
+   - **Descrizione**: Database NoSQL gestito, progettato per memorizzare e sincronizzare dati strutturati e semi-strutturati su larga scala, compatibile con l’ambiente serverless di Google.
+   - **Ideale per**: Applicazioni mobile, web e IoT che richiedono sincronizzazione e aggiornamenti in tempo reale.
+   - **Vantaggi**:
+     - Sincronizzazione in tempo reale tra client e server.
+     - Architettura serverless, che riduce i costi di gestione.
+
+5. **BigQuery**
+   - **Tipo**: Data warehouse analitico.
+   - **Descrizione**: Data warehouse serverless per l'analisi di grandi volumi di dati. Progettato per eseguire query SQL in tempo reale su grandi dataset.
+   - **Ideale per**: Analisi di big data, generazione di report, machine learning e analisi predittiva.
+   - **Vantaggi**:
+     - Query rapide su dataset enormi e pagamenti in base all’utilizzo.
+     - Integrazione con strumenti di machine learning (BigQuery ML) e strumenti di visualizzazione dati.
+
+### Tabella Riepilogativa
+
+| **Servizio**       | **Tipo**                 | **Descrizione**                             | **Ideale per**                          |
+|--------------------|--------------------------|---------------------------------------------|-----------------------------------------|
+| **Cloud Storage**  | Object storage           | Archiviazione di oggetti non strutturati    | Backup, archiviazione, content delivery |
+| **Persistent Disk**| Block storage            | Storage per VM e container                  | VM e applicazioni ad alte prestazioni   |
+| **Filestore**      | File storage             | Storage file-based per NFS                  | Applicazioni che richiedono file system |
+| **Local SSD**      | Local storage            | SSD locale con bassa latenza                | Database ad alta velocità               |
+| **Cloud SQL**      | Relational database (SQL)| Database SQL gestito                        | Applicazioni web e aziendali            |
+| **Cloud Spanner**  | Distributed SQL database | Database SQL globale e scalabile            | Applicazioni mission-critical globali   |
+| **Bigtable**       | NoSQL (Columnar)         | Database per dati scalabili e analitici     | IoT, dati temporali, analytics          |
+| **Firestore**      | NoSQL (Document)         | Database documentale in tempo reale         | App mobile/web, dati sincronizzati      |
+| **BigQuery**       | Data warehouse           | Data warehouse per analisi dei big data     | Business intelligence, machine learning |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
