@@ -207,7 +207,7 @@ Il multi-cloud implica l'uso di più provider di cloud pubblico (ad esempio, AWS
 
 ________________________
 
-## Clod service Models 
+## Cloud service Models 
 
 
 
