@@ -317,9 +317,11 @@ La **Google Cloud Global Infrastructure** è l’infrastruttura globale di data 
 
 
 
+![Screenshot 2024-11-10 alle 18 02 39](https://github.com/user-attachments/assets/41fb7e6f-c908-4b88-b0ac-2448a018d58f)
 
 
 
+![Screenshot 2024-11-10 alle 18 02 51](https://github.com/user-attachments/assets/ae0c36c7-d5ec-4722-988c-298fad031c5e)
 
 
 
