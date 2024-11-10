@@ -650,6 +650,16 @@ La **disponibilità** di **Google Cloud Storage** indica la probabilità che i d
    - **Vantaggi**:
      - Facile integrazione con VM e container.
      - Performance configurabili in base al carico di lavoro.
+    
+
+
+![Screenshot 2024-11-10 alle 21 51 48](https://github.com/user-attachments/assets/72849885-4b92-4209-b95e-da25fdaa4a5a)
+
+
+
+
+
+
 
 4. **Local SSD**
    - **Tipo**: Storage su disco locale.
