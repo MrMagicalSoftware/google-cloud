@@ -297,6 +297,15 @@ La **Google Cloud Global Infrastructure** è l’infrastruttura globale di data 
 
 
 
+![Screenshot 2024-11-10 alle 18 08 26](https://github.com/user-attachments/assets/84336410-a47b-42b0-844e-a9d4a4dbfc45)
+
+
+
+
+
+
+
+
 
    - La rete globale di Google permette anche il **peering** diretto con altre reti, ottimizzando ulteriormente la connettività tra i suoi data center e offrendo una connettività diretta e sicura verso altre piattaforme cloud o on-premises.
 
