@@ -200,11 +200,14 @@ Il multi-cloud implica l'uso di più provider di cloud pubblico (ad esempio, AWS
         Maggiore complessità nella gestione e nel monitoraggio delle risorse.
         Possibili problemi di compatibilità e integrazione tra i servizi dei diversi provider.
 
+![Screenshot 2024-11-10 alle 17 41 24](https://github.com/user-attachments/assets/902e9984-6d0a-44e7-a26a-ff71c1423bfc)
 
 
 
 
+________________________
 
+## Clod service Models 
 
 
 
