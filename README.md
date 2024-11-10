@@ -86,8 +86,13 @@ I principali fornitori di servizi IaaS includono:
 ![Screenshot 2024-11-10 alle 17 06 43](https://github.com/user-attachments/assets/3f23961e-f0c3-4496-8ec8-bcda52acf281)
 
 
+**Definizione di cloud**
+
+![Screenshot 2024-11-10 alle 17 11 28](https://github.com/user-attachments/assets/3aa91650-0f2e-4525-81db-f262b06053de)
 
 
+
+![Screenshot 2024-11-10 alle 17 11 40](https://github.com/user-attachments/assets/5264e080-b4bc-4f3c-82c7-a8f3a919fbd5)
 
 
 
