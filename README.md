@@ -97,6 +97,27 @@ l'erogazione di un pool di servizi informatici on demand su Internet, che posson
 >Databases
 
 
+** Le 5 caratteristiche del cloud**
+
+1) On-demand Self Service
+   (Provision reseources automatically without requiring human interaction)
+
+2) Broad Network Access
+   (Available over the network)
+
+3) Resource Pooling
+   (Pooled resources to support a multi-tenant model allowing multiple customers to share the same applications or the same physical infrastructure)
+
+4) Rapid Elasticity
+   (Rapidly provision and de-provision any of the cloud computing resources)
+
+5) Measured Service
+   (Resources usage can be monitored, controlled and reported using metering capabilities)
+
+
+
+
+
 
 ![Screenshot 2024-11-10 alle 17 11 28](https://github.com/user-attachments/assets/3aa91650-0f2e-4525-81db-f262b06053de)
 
