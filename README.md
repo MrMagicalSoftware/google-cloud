@@ -273,5 +273,21 @@ I **modelli di servizio del cloud** (o **cloud service models**) definiscono il 
 
 
 
+____________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
