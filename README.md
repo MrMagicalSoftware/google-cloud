@@ -88,6 +88,9 @@ I principali fornitori di servizi IaaS includono:
 
 **Definizione di cloud**
 
+l'erogazione di un pool di servizi informatici on demand su Internet, che possono essere rapidamente forniti e rilasciati con un minimo sforzo di gestione o di interazione con il fornitore di servizi.
+
+
 ![Screenshot 2024-11-10 alle 17 11 28](https://github.com/user-attachments/assets/3aa91650-0f2e-4525-81db-f262b06053de)
 
 
