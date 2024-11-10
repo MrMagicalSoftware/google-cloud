@@ -383,6 +383,11 @@ ___________________________________________
 
 I servizi di **Compute** di Google Cloud offrono diverse opzioni per eseguire carichi di lavoro computazionali, con livelli di controllo, scalabilità e automazione diversi. Ogni servizio è progettato per supportare varie esigenze di sviluppo, dall'esecuzione di macchine virtuali personalizzate all'orchestrazione di container e all'hosting di applicazioni serverless.
 
+
+![Screenshot 2024-11-10 alle 18 26 41](https://github.com/user-attachments/assets/ce65e569-6455-4208-8017-6cd0cef47dd0)
+
+
+
 principali opzioni di servizi di calcolo (Compute) in Google Cloud:
 
 ### 1. **Compute Engine**
