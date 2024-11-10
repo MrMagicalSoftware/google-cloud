@@ -209,6 +209,60 @@ ________________________
 
 ## Cloud service Models 
 
+![Screenshot 2024-11-10 alle 17 44 04](https://github.com/user-attachments/assets/2c3d5198-a418-473e-a263-c2c9516a4d94)
+
+
+Con X che varia :
+
+
+I **modelli di servizio del cloud** (o **cloud service models**) definiscono il livello di controllo, gestione e automazione delle risorse IT fornito da un provider cloud. Esistono tre principali modelli di servizio:
+
+### 1. **IaaS (Infrastructure as a Service)**
+   **Infrastructure as a Service** è il modello di servizio più "basso" nella gerarchia del cloud, fornendo le risorse di infrastruttura di base come **server virtuali, storage, rete e sistemi operativi**. L’utente ha il controllo su queste risorse e può installare e gestire applicazioni e sistemi operativi come meglio preferisce.
+
+   - **Esempi**: Amazon EC2 (AWS), Google Compute Engine (GCP), Microsoft Azure Virtual Machines.
+   
+   - **Vantaggi**:
+     - **Flessibilità e controllo**: offre controllo completo sulle risorse di computing.
+     - **Scalabilità**: le risorse possono essere scalate in base alle necessità.
+     - **Pagamento a consumo**: si paga solo per le risorse utilizzate.
+   
+   - **Tipico utilizzo**: Ideale per chi ha bisogno di un controllo profondo dell'infrastruttura, come ambienti di test e sviluppo, data center virtuali, e applicazioni con configurazioni specifiche.
+
+### 2. **PaaS (Platform as a Service)**
+   **Platform as a Service** è un livello sopra IaaS e fornisce un ambiente completamente gestito per sviluppare, testare, distribuire e gestire applicazioni senza doversi preoccupare dell’infrastruttura sottostante. In un ambiente PaaS, il provider cloud gestisce hardware, sistemi operativi, storage e database, lasciando agli sviluppatori il solo compito di concentrarsi sullo sviluppo dell’applicazione.
+
+   - **Esempi**: Google App Engine (GCP), Microsoft Azure App Services, Heroku.
+   
+   - **Vantaggi**:
+     - **Riduzione dei costi di gestione**: non è necessario occuparsi della manutenzione dell'infrastruttura.
+     - **Ambiente di sviluppo ottimizzato**: offre strumenti preconfigurati per il coding, il test e il deployment.
+     - **Velocità di sviluppo**: consente agli sviluppatori di concentrarsi solo sul codice, accelerando il ciclo di sviluppo.
+   
+   - **Tipico utilizzo**: Adatto per sviluppare applicazioni web e mobile, progetti di prototipazione e sviluppo di applicazioni di e-commerce, CRM, o sistemi di gestione aziendale.
+
+### 3. **SaaS (Software as a Service)**
+   **Software as a Service** è il modello di cloud più completo, in cui il provider offre applicazioni pronte all'uso accessibili via Internet. Gli utenti utilizzano il software direttamente senza doversi preoccupare dell'infrastruttura, della piattaforma o della gestione dell’applicazione stessa. SaaS è ideale per software standardizzati, utilizzati da una vasta gamma di utenti.
+
+   - **Esempi**: Google Workspace (ex G Suite), Microsoft 365, Salesforce, Dropbox.
+   
+   - **Vantaggi**:
+     - **Accessibilità**: applicazioni disponibili via Internet da qualsiasi dispositivo.
+     - **Manutenzione e aggiornamenti**: tutto è gestito dal provider, inclusi aggiornamenti e sicurezza.
+     - **Costi prevedibili**: spesso offerto con piani di abbonamento a costo fisso.
+
+   - **Tipico utilizzo**: Ideale per software aziendali come CRM, sistemi di gestione dei progetti, strumenti di collaborazione, applicazioni di posta elettronica e gestione documentale.
+
+### Differenze principali tra IaaS, PaaS e SaaS
+
+| **Modello**  | **Responsabilità Utente**                       | **Responsabilità Provider**                  |
+|--------------|-------------------------------------------------|----------------------------------------------|
+| **IaaS**     | Sistema operativo, middleware, runtime, app     | Infrastruttura fisica (server, storage)      |
+| **PaaS**     | Applicazioni, configurazioni specifiche         | Infrastruttura, sistema operativo, runtime   |
+| **SaaS**     | Utilizzo del software                           | Tutto (infrastruttura, OS, app, manutenzione)|
+
+La scelta del modello di servizio dipende dal livello di controllo desiderato, dai requisiti di gestione e manutenzione e dalle risorse necessarie per l’applicazione o il progetto.
+
 
 
 
