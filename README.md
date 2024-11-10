@@ -657,10 +657,6 @@ La **disponibilità** di **Google Cloud Storage** indica la probabilità che i d
 
 
 
-
-
-
-
 4. **Local SSD**
    - **Tipo**: Storage su disco locale.
    - **Descrizione**: Storage su SSD locale a bassa latenza, collegato direttamente alle VM su Compute Engine, per carichi di lavoro con alti requisiti di IOPS e bassa latenza.
@@ -670,6 +666,20 @@ La **disponibilità** di **Google Cloud Storage** indica la probabilità che i d
      - Progettato per supportare carichi intensivi in lettura e scrittura.
 
 ### Database Options
+
+
+
+
+![Screenshot 2024-11-10 alle 21 55 26](https://github.com/user-attachments/assets/89bad949-1b2e-4c22-a9a9-c22c6c61ac4f)
+
+
+
+
+
+
+
+
+
 
 1. **Cloud SQL**
    - **Tipo**: Database relazionale (SQL).
@@ -687,6 +697,13 @@ La **disponibilità** di **Google Cloud Storage** indica la probabilità che i d
    - **Vantaggi**:
      - Scalabilità globale e forte coerenza dei dati.
      - Compatibilità con SQL e gestione automatica dei dati.
+    
+
+![Screenshot 2024-11-10 alle 21 56 38](https://github.com/user-attachments/assets/f9f9886a-4465-4a7e-a660-a6484e6273db)
+
+
+
+
 
 3. **Bigtable**
    - **Tipo**: Database NoSQL a colonne.
@@ -704,6 +721,12 @@ La **disponibilità** di **Google Cloud Storage** indica la probabilità che i d
      - Sincronizzazione in tempo reale tra client e server.
      - Architettura serverless, che riduce i costi di gestione.
 
+![Screenshot 2024-11-10 alle 21 58 45](https://github.com/user-attachments/assets/fa8ed4d1-e606-441d-83ca-c8726d2ba529)
+
+
+
+
+
 5. **BigQuery**
    - **Tipo**: Data warehouse analitico.
    - **Descrizione**: Data warehouse serverless per l'analisi di grandi volumi di dati. Progettato per eseguire query SQL in tempo reale su grandi dataset.
@@ -711,6 +734,12 @@ La **disponibilità** di **Google Cloud Storage** indica la probabilità che i d
    - **Vantaggi**:
      - Query rapide su dataset enormi e pagamenti in base all’utilizzo.
      - Integrazione con strumenti di machine learning (BigQuery ML) e strumenti di visualizzazione dati.
+
+
+
+
+
+
 
 ### Tabella Riepilogativa
 
