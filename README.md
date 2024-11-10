@@ -443,6 +443,7 @@ principali opzioni di servizi di calcolo (Compute) in Google Cloud:
 
 
 
+![Screenshot 2024-11-10 alle 18 26 41](https://github.com/user-attachments/assets/420196e7-df5a-44ff-bf17-a9782a33dcfd)
 
 
 
