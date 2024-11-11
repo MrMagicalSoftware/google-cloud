@@ -1010,6 +1010,21 @@ Ti chiediamo i dati della carta di credito per essere certi che tu non sia un ro
 https://cloud.google.com/free?hl=it
 
 
+____________________________
+
+
+
+# GCP CONSOLE OVERVIEW
+
+
+![Screenshot 2024-11-11 alle 13 55 28](https://github.com/user-attachments/assets/2ba751ca-95c7-44ab-bed9-6addfe9aa48d)
+
+
+
+
+
+
+
 
 
 
