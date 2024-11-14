@@ -1057,11 +1057,19 @@ Le Cloud APIs di Google sono  strumenti fondamentali per sfruttare al meglio l�
 
 ### Come Usare le Cloud APIs
 
+Devo prima abilitarle
+
+
 Le Cloud APIs possono essere utilizzate tramite:
 
 - **REST API**: Gli endpoint delle API sono accessibili tramite richieste HTTP. È possibile fare chiamate REST con vari metodi come `GET`, `POST`, `PUT`, e `DELETE`.
 - **Client Libraries**: Google offre librerie client ufficiali in vari linguaggi (Python, Java, Node.js, Go, ecc.) per semplificare l’integrazione delle API nelle applicazioni.
 - **Google Cloud SDK**: Uno strumento da riga di comando per interagire direttamente con le Cloud APIs, utile per gli sviluppatori che preferiscono l'accesso tramite CLI.
+
+Per vedere le API ABILITATE VADO (menù)  APIs & Services.
+
+
+
 
 ### Autenticazione
 
@@ -1081,6 +1089,98 @@ Immagina di voler **creare un’istanza di Compute Engine** per eseguire un’ap
 - **Scalabilità**: Rendono possibile adattare le risorse cloud in modo dinamico, rispondendo alle esigenze dell’applicazione.
 - **Flessibilità**: Consentono di personalizzare il comportamento dei servizi Google Cloud secondo le necessità del progetto.
 - **Sicurezza**: Offrono controllo granulare sui permessi grazie all’integrazione con IAM.
+
+
+________________________________________________________________________________________________________________________
+
+
+# Cloud SDK AND CLI 
+
+Il **Cloud SDK** e la **Google Cloud CLI** sono strumenti essenziali per interagire con Google Cloud tramite la riga di comando. Il Cloud SDK include una serie di strumenti, comandi e librerie che permettono di configurare e gestire risorse, automatizzare attività e integrare Google Cloud nelle proprie applicazioni.
+
+### Google Cloud SDK
+
+Il **Google Cloud SDK** (Software Development Kit) è un insieme di strumenti che fornisce agli sviluppatori tutti gli strumenti necessari per gestire i servizi di Google Cloud da locale. Include la **Google Cloud CLI** (strumento da riga di comando), librerie client, e altri strumenti per l’interazione con il cloud.
+
+- **Installazione**: Il Cloud SDK può essere installato su sistemi operativi diversi (Windows, macOS, e Linux) e richiede Python per essere eseguito.
+- **Google Cloud CLI**: La CLI (comando `gcloud`) è parte integrante del Cloud SDK e consente di eseguire tutte le operazioni disponibili nelle Cloud APIs direttamente dalla riga di comando.
+
+### Componenti Principali del Cloud SDK
+
+1. **gcloud**: Lo strumento da riga di comando principale per Google Cloud. Permette di gestire risorse e servizi, come Compute Engine, Cloud Storage, IAM, e molto altro. Supporta vari comandi e flag per configurare, creare, aggiornare e cancellare risorse.
+
+2. **gsutil**: Uno strumento specifico per interagire con Cloud Storage. È usato per caricare e scaricare file, gestire i bucket e configurare permessi sui dati archiviati.
+
+3. **bq**: Lo strumento a riga di comando per BigQuery, utilizzato per eseguire query SQL, gestire dataset e configurare opzioni di elaborazione dei dati.
+
+4. **kubectl**: Per gestire i cluster Kubernetes. Questo strumento, incluso come parte del Cloud SDK, è utile per chi utilizza Google Kubernetes Engine (GKE) per orchestrare i container.
+
+### Funzionalità e Utilizzo della Google Cloud CLI
+
+La **Google Cloud CLI** consente di interagire con Google Cloud in modo programmatico e da locale. È utile sia per chi gestisce risorse occasionalmente che per sviluppatori che vogliono automatizzare flussi di lavoro. Di seguito sono riportati alcuni esempi di utilizzo della CLI:
+
+1. **Autenticazione**:
+   - `gcloud auth login`: Autentica l'utente per accedere alle risorse Google Cloud.
+   - `gcloud auth application-default login`: Configura le credenziali predefinite per le applicazioni.
+
+2. **Configurazione del Progetto**:
+   - `gcloud config set project [PROJECT_ID]`: Imposta il progetto attivo in Google Cloud.
+   - `gcloud config list`: Visualizza la configurazione corrente della CLI.
+
+3. **Gestione delle Risorse**:
+   - Creazione di una VM Compute Engine:
+     ```bash
+     gcloud compute instances create example-instance --zone=us-central1-a
+     ```
+   - Caricamento di un file su Cloud Storage:
+     ```bash
+     gsutil cp my-file.txt gs://my-bucket
+     ```
+
+4. **IAM e Sicurezza**:
+   - Gestione dei ruoli di accesso per utenti e account di servizio:
+     ```bash
+     gcloud projects add-iam-policy-binding [PROJECT_ID] --member=user:[USER_EMAIL] --role=roles/viewer
+     ```
+
+5. **Automazione con Script**:
+   - È possibile scrivere script per automatizzare la creazione, configurazione e monitoraggio delle risorse Google Cloud. I comandi `gcloud`, `gsutil`, e `bq` possono essere concatenati in script shell per gestire flussi di lavoro complessi.
+
+### Vantaggi del Cloud SDK e della Google Cloud CLI
+
+- **Accesso Diretto**: Permette di accedere alle funzionalità cloud da locale, senza dover entrare nella console web.
+- **Automazione**: Consente di automatizzare task ripetitivi e flussi di lavoro tramite script.
+- **Supporto a Più Ambienti**: Può essere usato in ambienti di sviluppo, test e produzione con facilità, grazie al controllo delle configurazioni.
+- **Debug e Monitoraggio**: Utile per monitorare risorse e risolvere problemi tramite log e output della CLI.
+- **Integrazione con CI/CD**: Spesso integrato nelle pipeline CI/CD per automatizzare il deploy delle applicazioni e il provisioning delle risorse.
+
+### Esempio di Flusso di Lavoro con la Google Cloud CLI
+
+1. Autentica il tuo account Google Cloud:
+   ```bash
+   gcloud auth login
+   ```
+
+2. Configura il progetto e la zona:
+   ```bash
+   gcloud config set project my-project
+   gcloud config set compute/zone us-central1-a
+   ```
+
+3. Crea un’istanza di Compute Engine:
+   ```bash
+   gcloud compute instances create my-instance --machine-type=e2-medium --image-family=debian-10 --image-project=debian-cloud
+   ```
+
+4. Carica dati su Cloud Storage:
+   ```bash
+   gsutil cp local-file.txt gs://my-bucket
+   ```
+
+5. Esegui una query BigQuery:
+   ```bash
+   bq query --use_legacy_sql=false 'SELECT * FROM my-dataset.my-table LIMIT 10'
+   ```
 
 
 
