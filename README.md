@@ -1183,6 +1183,7 @@ La **Google Cloud CLI** consente di interagire con Google Cloud in modo programm
    ```
 
 
+<img width="1334" alt="Screenshot 2024-11-14 alle 13 51 39" src="https://github.com/user-attachments/assets/87c6f4bf-6ee6-4027-846e-cefa6a9deb92">
 
 
 
