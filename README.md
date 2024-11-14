@@ -1188,13 +1188,19 @@ La **Google Cloud CLI** consente di interagire con Google Cloud in modo programm
 
 ## Come installare :
 
+https://cloud.google.com/sdk/docs/quickstarts
 
 <img width="1037" alt="Screenshot 2024-11-14 alle 14 36 58" src="https://github.com/user-attachments/assets/4743f223-123e-4d6c-8b53-d201f3f6ef69">
 
 
+Per verificare il corretto funzionamento
 
-
-
+```
+gcloud --help
+```
+```
+gcloud config list 
+```
 
 
 
