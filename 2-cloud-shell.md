@@ -125,6 +125,48 @@ curl "http://metadata/computeMetadata/v1/instance/zone" -H "Metadata-Flavor: Goo
 
 
 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+posso creare ed editare file touch .customize_enviroment
+edit .customize_enviroment
+
+
+Il file .customize_environment è uno script opzionale che puoi utilizzare per personalizzare l'ambiente di Cloud Shell in Google Cloud. Questo file viene eseguito automaticamente all'avvio di ogni sessione di Cloud Shell,
+permettendo di configurare il tuo ambiente secondo le tue esigenze personali.
+
+
+Nota per usare edit devo avere i cookies abilitati 
+
+
+<img width="928" alt="Screenshot 2024-11-16 alle 14 13 54" src="https://github.com/user-attachments/assets/da96ff12-b62a-4679-a077-1d04c779ff7f">
+
+<img width="1329" alt="Screenshot 2024-11-16 alle 14 15 09" src="https://github.com/user-attachments/assets/be8870c5-fb7b-4c0c-a365-284629870c87">
+
+https://www.ibm.com/it-it/topics/terraform
+
+Quando riavvio posso controllare che lo script ha avuto successo  terraform --version
+
+
+<img width="1324" alt="Screenshot 2024-11-16 alle 14 19 16" src="https://github.com/user-attachments/assets/235c9578-c1fd-4d43-84c1-5e6dde3f481c">
+
+
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
