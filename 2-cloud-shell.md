@@ -64,6 +64,67 @@
 - **Sicurezza**: L'accesso è autenticato e sicuro tramite l'account Google Cloud.
 
 
+Una volta loggato posso usare il comando : df -h per vedere lo spazio nel disco
+
+
+Il comando 
+
+```bash
+curl "http://metadata/computeMetadata/v1/instance/zone" -H "Metadata-Flavor: Google"
+```
+
+è usato per recuperare la **zona di Compute Engine** in cui si trova un'istanza Google Cloud. Questo comando accede ai **metadata server** forniti da Google Cloud, che permettono alle istanze di ottenere informazioni su sé stesse e sull'ambiente in cui operano.
+
+---
+
+### **Dettagli del comando**
+
+1. **URL**:  
+   `http://metadata/computeMetadata/v1/instance/zone`  
+   - Questo è il percorso del server metadata per ottenere informazioni sulla zona della VM.
+   - Ogni VM in Google Cloud ha accesso a un server metadata disponibile all'interno della rete locale.
+
+2. **Header richiesto**:  
+   `Metadata-Flavor: Google`  
+   - Questo header è obbligatorio per autenticare la richiesta e dimostrare che è legittima. Senza di esso, il server restituirà un errore.
+
+3. **Struttura della risposta**:
+   La risposta è una stringa che indica la risorsa completa della zona dell'istanza, ad esempio:
+   ```
+   projects/123456789012/zones/us-central1-a
+   ```
+   - **projects/123456789012**: L'ID del progetto.
+   - **zones/us-central1-a**: La zona in cui si trova la VM.
+
+---
+
+### **Estrarre solo il nome della zona**
+Se vuoi ottenere solo il nome della zona (es. `us-central1-a`), puoi usare un comando come questo:
+```bash
+curl "http://metadata/computeMetadata/v1/instance/zone" -H "Metadata-Flavor: Google" | awk -F'/' '{print $NF}'
+```
+- Qui `awk` divide la stringa usando `/` come separatore e prende l'ultima parte.
+
+---
+
+### **Casi d'uso comuni**
+1. **Identificare l'ambiente in cui opera una VM**:  
+   Utile in script o applicazioni che devono adattarsi alla zona della VM.
+
+2. **Bilanciamento del carico o failover**:  
+   Puoi configurare script per distribuire il carico tra diverse zone o spostare operazioni su altre zone in caso di problemi.
+
+3. **Automatizzare configurazioni regionali**:  
+   Conoscere la zona aiuta a configurare servizi collegati (es. bucket di Cloud Storage o altre risorse regionali).
+
+---
+
+### **Nota sulla sicurezza**
+- Il metadata server è accessibile solo dalle VM e non è disponibile dall'esterno.
+- Non è richiesta un'autenticazione aggiuntiva, ma i metadati sensibili (es. chiavi API) devono essere usati con cautela.
+
+
+
 
 
 
