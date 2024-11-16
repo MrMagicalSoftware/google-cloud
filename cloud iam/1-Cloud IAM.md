@@ -15,8 +15,68 @@ A user, program , or process should have oly the bare minimum privileges necessa
 
 <img width="760" alt="Screenshot 2024-11-16 alle 14 58 05" src="https://github.com/user-attachments/assets/1877c1de-4631-49c4-90de-64df8316ebf4">
 
+## POLICY ARCHITECTURE 
+
+
+<img width="659" alt="Screenshot 2024-11-16 alle 15 02 23" src="https://github.com/user-attachments/assets/93fe82cd-1dd1-4e2d-a3fd-3757d5bee51f">
+
+
+**the who**
+
+<img width="1346" alt="Screenshot 2024-11-16 alle 15 04 43" src="https://github.com/user-attachments/assets/bca21992-6a0c-4513-aad9-5e2a54102b1a">
+
+
+
+**Permissions**
+
+<img width="884" alt="Screenshot 2024-11-16 alle 15 06 25" src="https://github.com/user-attachments/assets/96ef60d7-b80f-4147-812a-f4f4ef345108">
+
+
+**Roles**
+
+<img width="892" alt="Screenshot 2024-11-16 alle 15 07 38" src="https://github.com/user-attachments/assets/485c5498-e915-431d-916c-5707beb64b93">
+
+
+
+I roles possono essere :
+
+
+<img width="949" alt="Screenshot 2024-11-16 alle 15 09 59" src="https://github.com/user-attachments/assets/3214c94d-e5ae-4e76-be45-0a2c7d58328b">
+
+
+
+**Conditions**
+
+
+<img width="737" alt="Screenshot 2024-11-16 alle 15 11 50" src="https://github.com/user-attachments/assets/db0fe1ca-ceee-4cd7-b714-5dc58d021b59">
+
+
+
+
+**METADATA**
+
+
+
+
+<img width="1152" alt="Screenshot 2024-11-16 alle 16 07 24" src="https://github.com/user-attachments/assets/01d4217e-8dc7-4b9d-a98a-1996e72caa41">
+
+
+
+
+
+
+
+ 
 
 °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+
+<img width="1422" alt="Screenshot 2024-11-16 alle 14 59 55" src="https://github.com/user-attachments/assets/a7afe5a9-7c72-4f8e-8927-3bd2e4558321">
+
+
+
+
 
 ---
 
