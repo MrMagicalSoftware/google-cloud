@@ -6,6 +6,18 @@
 Consente di controllare chi (utenti, gruppi o service account) può eseguire determinate azioni sulle risorse del tuo progetto GCP. 
 È uno strumento fondamentale per gestire la sicurezza e l'accesso nei progetti cloud.
 
+
+REGOLA AUREA:
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+A user, program , or process should have oly the bare minimum privileges necessary to perform its function
+
+<img width="760" alt="Screenshot 2024-11-16 alle 14 58 05" src="https://github.com/user-attachments/assets/1877c1de-4631-49c4-90de-64df8316ebf4">
+
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
 ---
 
 ### **Concetti principali**
