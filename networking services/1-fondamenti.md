@@ -30,3 +30,33 @@ L'**Internet Protocol (IP)** è un protocollo di comunicazione fondamentale che 
 ### Utilizzo:
 - **Reti locali (LAN)**: Dispositivi nella stessa rete condividono indirizzi IP privati.
 - **Reti globali (WAN/Internet)**: I dispositivi usano indirizzi IP pubblici per comunicare oltre la rete locale.
+
+
+
+
+**Modello iso/osi***
+
+
+<img width="723" alt="Screenshot 2024-11-16 alle 17 49 01" src="https://github.com/user-attachments/assets/03dbdb3f-74b9-4796-8684-1cf12d2a8db0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
