@@ -82,5 +82,3 @@ Ecco un elenco dei principali comandi `gcloud`, organizzati per categoria, con u
 - **`gcloud alpha <COMMAND>`**: Accesso a funzionalità in fase alpha (più sperimentali).
 
 ---
-
-Questi comandi coprono i casi d'uso più comuni, ma l'SDK di Google Cloud offre molte altre opzioni. Se hai un caso d'uso specifico, posso aiutarti a trovare i comandi più adatti! 😊
