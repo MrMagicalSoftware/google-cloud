@@ -125,6 +125,25 @@ Questa rete ha un'ampiezza di 192.168.0.0 - 192.168.255.255
 <img width="992" alt="Screenshot 2024-11-17 alle 11 31 30" src="https://github.com/user-attachments/assets/a520ee61-1561-45e5-a365-dadc67e82a8d">
 
 
+°°°°°°°°°°°°°°°°°°°° IP VERSION 6 °°°°°°°°°°°°°°°°°°°°°°°°°°
+
+<img width="1277" alt="Screenshot 2024-11-17 alle 11 32 50" src="https://github.com/user-attachments/assets/e40f08ca-844e-4376-895c-62ae0f25bb08">
+
+<img width="1296" alt="Screenshot 2024-11-17 alle 11 34 42" src="https://github.com/user-attachments/assets/f920f76c-49f9-4df6-a240-d22c203254c7">
+
+
+°°°°°°°°°°°°°°°°°°° Application Layer °°°°°°°°°°°°°°°°°°
+
+ssh ( 22)
+udp (53)
+http (80)
+https( 443)
+
+
+
+
+
+
 
 
 
