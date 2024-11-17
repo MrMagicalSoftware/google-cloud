@@ -122,10 +122,15 @@ NOTA : STATIC IP ADDRESSES NOT ATTACHED TO AN INSTANCE OR LOAD BALANCER ARE BILL
 
 ![Screenshot 2024-11-17 alle 20 08 23](https://github.com/user-attachments/assets/0e8b5033-2611-4c2c-b1a5-b02aad9996bb)
 
+![Screenshot 2024-11-17 alle 20 12 27](https://github.com/user-attachments/assets/fef83b64-b097-481f-b53f-b52323850f6a)
+
+![Screenshot 2024-11-17 alle 20 13 33](https://github.com/user-attachments/assets/b6d8dab7-8e92-454a-bbf6-dbc5e2fba0d8)
 
 
+```
+gcloud compute addresses list
 
-
+```
 
 
 
