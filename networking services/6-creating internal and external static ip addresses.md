@@ -99,16 +99,28 @@ gcloud compute addresses list
 
 ```
 
+_________________________________________________
 
 
+**external IP**
+
+Cancello ISTANZA DELLA VIRTUAL MACHINE CREATA
+
+Vado in vpc network :
+
+![Screenshot 2024-11-17 alle 20 03 06](https://github.com/user-attachments/assets/6c3a2695-b899-49b7-9d15-9715b4ed4e75)
+
+![Screenshot 2024-11-17 alle 20 03 52](https://github.com/user-attachments/assets/bf265f24-b8dd-4d0a-bf53-f4cd4b5b97d8)
 
 
+NOTA : PREMIUM ha un costo maggiore 
 
+NOTA : STATIC IP ADDRESSES NOT ATTACHED TO AN INSTANCE OR LOAD BALANCER ARE BILLED AT AN HOURLY RATE
 
+![Screenshot 2024-11-17 alle 20 06 45](https://github.com/user-attachments/assets/9546a51d-939b-4a0d-aa26-fa377e8dbcc7)
+![Screenshot 2024-11-17 alle 20 07 29](https://github.com/user-attachments/assets/8a21c677-55c8-4782-ac97-662bd1b3847e)
 
-
-
-
+![Screenshot 2024-11-17 alle 20 08 23](https://github.com/user-attachments/assets/0e8b5033-2611-4c2c-b1a5-b02aad9996bb)
 
 
 
