@@ -197,6 +197,9 @@ gcloud compute networks subnets expand-ip-range default --region=us-west1 --pref
 ```
 
 
+```
+gcloud compute networks subnets describe default --region=us-west1
+```
 
 
 
