@@ -189,6 +189,20 @@ gcloud compute routers create my-router \
 <img width="1440" alt="Screenshot 2024-11-17 alle 12 41 06" src="https://github.com/user-attachments/assets/bb9bf3e6-bf7e-42ce-b26c-d314ba724d84">
 
 
+Con cloud shell possono espandere la rete usando :
+
+```
+gcloud compute networks subnets expand-ip-range default --region=us-west1 --prefix-length=16
+
+```
+
+
+
+
+
+
+
+
 
 
 
