@@ -99,13 +99,30 @@ e la classe di un indirizzo si basa sui primi bit più significativi (MSB, Most 
 Con l'introduzione del CIDR, le classi tradizionali sono state superate, consentendo una maggiore flessibilità con il formato **notazione CIDR** (es. `192.168.1.0/24`), dove il suffisso indica il numero di bit utilizzati per la parte di rete.
 
 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+Private IP Addresss
+
+<img width="1086" alt="Screenshot 2024-11-17 alle 11 15 12" src="https://github.com/user-attachments/assets/da49215a-3b64-483f-8785-aaf586b4c188">
 
 
 
 
 
 
+Più è grande il prefix , più piccola è l'ampiezza della rete
 
+192.168.0.0/16 
+°°°°°°°°°°°
+Network Address Prefix (16)
+
+
+Questa rete ha un'ampiezza di 192.168.0.0 - 192.168.255.255
+
+
+<img width="999" alt="Screenshot 2024-11-17 alle 11 30 02" src="https://github.com/user-attachments/assets/c7561d60-9d00-4120-9135-436eb0053485">
+
+<img width="992" alt="Screenshot 2024-11-17 alle 11 31 30" src="https://github.com/user-attachments/assets/a520ee61-1561-45e5-a365-dadc67e82a8d">
 
 
 
