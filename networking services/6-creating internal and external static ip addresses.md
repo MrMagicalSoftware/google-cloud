@@ -74,6 +74,9 @@ Creo nuovamente la VM con queste caratteristiche :
 
 
 
+Seleziono ora l'istanza :
+
+![Screenshot 2024-11-17 alle 19 00 08](https://github.com/user-attachments/assets/c29ec92a-16d6-4418-8b3c-1da4704dab93)
 
 
 
