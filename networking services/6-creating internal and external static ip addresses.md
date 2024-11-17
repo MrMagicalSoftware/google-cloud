@@ -79,10 +79,12 @@ Seleziono ora l'istanza :
 ![Screenshot 2024-11-17 alle 19 00 08](https://github.com/user-attachments/assets/c29ec92a-16d6-4418-8b3c-1da4704dab93)
 
 
+![Screenshot 2024-11-17 alle 19 47 40](https://github.com/user-attachments/assets/3231d982-a43f-4a38-87fd-94d5e1435761)
 
 
 
 
+![Screenshot 2024-11-17 alle 19 48 39](https://github.com/user-attachments/assets/38dd280b-0d63-4635-9def-e0b9395eeeeb)
 
 
 
