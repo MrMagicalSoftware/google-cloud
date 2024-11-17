@@ -173,6 +173,8 @@ gcloud compute routers nats create my-nat \
 ![Screenshot 2024-11-17 alle 17 26 03](https://github.com/user-attachments/assets/05daa5d4-a7be-48d6-9cc0-c7ad73e3e0ad)
 
 
+**INTERNAL IP ADDRESS RESERVATION**
+
 ![Screenshot 2024-11-17 alle 17 28 13](https://github.com/user-attachments/assets/760edd86-88d5-40a3-940b-2975b15e39d5)
 
 
