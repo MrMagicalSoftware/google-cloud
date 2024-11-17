@@ -152,6 +152,39 @@ gcloud compute networks subnets update my-subnet \
 
 ---
 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+<img width="1035" alt="Screenshot 2024-11-17 alle 13 07 25" src="https://github.com/user-attachments/assets/e34b7595-b59b-4370-80ce-8500ad456322">
+
+
+
+**increasung subnet Ip space**
+
+
+<img width="1052" alt="Screenshot 2024-11-17 alle 13 16 18" src="https://github.com/user-attachments/assets/7521e7c7-4bef-46f7-bddb-cadc884c1354">
+
+
+
+**RESERVED IP ADDRESSES**
+
+<img width="965" alt="Screenshot 2024-11-17 alle 13 17 53" src="https://github.com/user-attachments/assets/235d7b23-8951-48b8-b9a5-0906072e5788">
+
+
+
+
+
+
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+
+
+
+
+
+
 
 
 
