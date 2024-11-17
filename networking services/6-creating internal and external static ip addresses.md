@@ -94,7 +94,10 @@ Seleziono ora l'istanza :
 ![Screenshot 2024-11-17 alle 19 58 48](https://github.com/user-attachments/assets/d4152b77-5007-4012-96a3-4c2c4149298a)
 
 
+```
+gcloud compute addresses list
 
+```
 
 
 
