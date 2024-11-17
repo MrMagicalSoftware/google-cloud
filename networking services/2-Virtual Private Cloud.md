@@ -185,12 +185,8 @@ gcloud compute routers create my-router \
 
 
 <img width="1431" alt="Screenshot 2024-11-17 alle 11 55 51" src="https://github.com/user-attachments/assets/c6af5c56-905d-4c74-b0c4-f58f8fd1b120">
-
-
-
 <img width="970" alt="Screenshot 2024-11-17 alle 12 37 40" src="https://github.com/user-attachments/assets/e05b1161-bf02-457c-9e08-3b7f8c16dcd8">
-
-
+<img width="1440" alt="Screenshot 2024-11-17 alle 12 41 06" src="https://github.com/user-attachments/assets/bb9bf3e6-bf7e-42ce-b26c-d314ba724d84">
 
 
 
