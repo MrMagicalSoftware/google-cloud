@@ -203,6 +203,27 @@ gcloud compute networks subnets describe default --region=us-west1
 
 
 
+°°°°°°°°°°°°°°°°°°°°°°°°°° DELETE VPC NETWORK °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+
+<img width="1122" alt="Screenshot 2024-11-17 alle 12 47 32" src="https://github.com/user-attachments/assets/7647f763-b1a8-443d-abed-7e61502d5d06">
+
+Posso cancellare , solamente se non ho risorse collegate alla vpc networks, non sarò in grado di cancellare la VPC
+
+
+<img width="1119" alt="Screenshot 2024-11-17 alle 12 50 22" src="https://github.com/user-attachments/assets/bbb7d676-5d39-4b42-927a-fa50d493321a">
+
+
+<img width="652" alt="Screenshot 2024-11-17 alle 12 52 08" src="https://github.com/user-attachments/assets/0e76d48f-2f8c-465c-9c79-13f0915be340">
+
+
+
+
+__________________________________________________________________________________________
+
+
+
 
 
 
