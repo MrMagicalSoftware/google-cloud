@@ -161,6 +161,7 @@ _______________ CUSTOM ROUTES _______________________
 
 
 
+<img width="1114" alt="Screenshot 2024-11-17 alle 14 05 23" src="https://github.com/user-attachments/assets/4af83cdc-cd71-47fe-a5be-19682850fb70">
 
 
 
