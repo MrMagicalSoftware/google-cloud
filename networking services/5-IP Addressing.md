@@ -179,7 +179,12 @@ gcloud compute routers nats create my-nat \
 
 
 
+**External ip address reservation**
 
+![Screenshot 2024-11-17 alle 17 32 53](https://github.com/user-attachments/assets/dd9259d3-97bf-4e65-bc90-9caa7ee0426d)
+
+
+![Screenshot 2024-11-17 alle 17 33 35](https://github.com/user-attachments/assets/0517e36b-4899-4bf9-82df-a0a2aa14fade)
 
 
 
