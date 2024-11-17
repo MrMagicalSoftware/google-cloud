@@ -34,13 +34,69 @@ L'**Internet Protocol (IP)** è un protocollo di comunicazione fondamentale che 
 
 
 
-**Modello iso/osi***
+**Modello iso/osi**
 
 
 <img width="723" alt="Screenshot 2024-11-16 alle 17 49 01" src="https://github.com/user-attachments/assets/03dbdb3f-74b9-4796-8684-1cf12d2a8db0">
 
 
+<img width="972" alt="Screenshot 2024-11-16 alle 17 52 36" src="https://github.com/user-attachments/assets/6151a3b9-1d92-423e-9f66-edb242a44839">
 
+
+Le **classi di indirizzi IP** sono una categorizzazione utilizzata principalmente nell'indirizzamento IPv4 per suddividere lo spazio degli indirizzi in base alla grandezza della rete e al numero di host che possono essere supportati. Questa suddivisione era utile prima dell'introduzione del **CIDR (Classless Inter-Domain Routing)**, che ha reso più flessibile l'assegnazione degli indirizzi.
+
+### Classi di IP
+Gli indirizzi IPv4 sono rappresentati da 32 bit (quattro ottetti), 
+e la classe di un indirizzo si basa sui primi bit più significativi (MSB, Most Significant Bits).
+
+#### **Classe A**
+- **Range**: da `0.0.0.0` a `127.255.255.255`
+- **Primi bit**: 0 (il primo ottetto varia da 0 a 127)
+- **Numero massimo di reti**: 128 (2⁷, considerando 0 e 127 riservati)
+- **Numero massimo di host per rete**: 16.777.214 (2²⁴ - 2, esclusi indirizzo di rete e broadcast)
+- **Destinazione**: Grandi reti, ad esempio grandi aziende o organizzazioni globali.
+- **Esempio**: `10.0.0.1`
+
+#### **Classe B**
+- **Range**: da `128.0.0.0` a `191.255.255.255`
+- **Primi bit**: 10 (il primo ottetto varia da 128 a 191)
+- **Numero massimo di reti**: 16.384 (2¹⁴)
+- **Numero massimo di host per rete**: 65.534 (2¹⁶ - 2)
+- **Destinazione**: Medie reti, ad esempio università o aziende di media grandezza.
+- **Esempio**: `172.16.0.1`
+
+#### **Classe C**
+- **Range**: da `192.0.0.0` a `223.255.255.255`
+- **Primi bit**: 110 (il primo ottetto varia da 192 a 223)
+- **Numero massimo di reti**: 2.097.152 (2²¹)
+- **Numero massimo di host per rete**: 254 (2⁸ - 2)
+- **Destinazione**: Piccole reti, ad esempio uffici o reti domestiche.
+- **Esempio**: `192.168.1.1`
+
+#### **Classe D** (Multicast)
+- **Range**: da `224.0.0.0` a `239.255.255.255`
+- **Primi bit**: 1110
+- **Destinazione**: Utilizzata per inviare pacchetti a gruppi di dispositivi (multicast). Non supporta host o subnetting.
+- **Esempio**: `224.0.0.1` (usato per i protocolli di routing come OSPF).
+
+#### **Classe E** (Riservata)
+- **Range**: da `240.0.0.0` a `255.255.255.255`
+- **Primi bit**: 1111
+- **Destinazione**: Riservata per scopi sperimentali e non utilizzata nella rete pubblica.
+- **Esempio**: Nessun esempio di uso pratico comune.
+
+---
+
+### Indirizzi riservati
+- **Privati**:
+  - Classe A: `10.0.0.0` - `10.255.255.255`
+  - Classe B: `172.16.0.0` - `172.31.255.255`
+  - Classe C: `192.168.0.0` - `192.168.255.255`
+  
+- **Loopback**: `127.0.0.0` - `127.255.255.255` (usato per comunicare con se stessi, ad esempio `127.0.0.1`).
+
+---
+Con l'introduzione del CIDR, le classi tradizionali sono state superate, consentendo una maggiore flessibilità con il formato **notazione CIDR** (es. `192.168.1.0/24`), dove il suffisso indica il numero di bit utilizzati per la parte di rete.
 
 
 
