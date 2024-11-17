@@ -152,6 +152,25 @@ _______________ CUSTOM ROUTES _______________________
 
 
 
+2) Dynamic Route
+
+
+<img width="1397" alt="Screenshot 2024-11-17 alle 13 34 39" src="https://github.com/user-attachments/assets/119558de-300a-401c-9953-c0cce548b4f5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
