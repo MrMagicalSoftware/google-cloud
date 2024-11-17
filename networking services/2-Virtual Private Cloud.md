@@ -167,3 +167,33 @@ gcloud compute routers create my-router \
 - **Non cross-cloud**: Una VPC è specifica per Google Cloud; non può essere utilizzata direttamente con altre piattaforme cloud (ad esempio AWS o Azure) senza configurazioni aggiuntive.
 
 ---
+
+
+°°°°°°°°°°°°° Recapp Virtual Private Cloud (VPC) °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+<img width="1019" alt="Screenshot 2024-11-17 alle 11 48 58" src="https://github.com/user-attachments/assets/84f7f16c-c3ef-45e4-996c-822db5378dbb">
+
+<img width="998" alt="Screenshot 2024-11-17 alle 11 50 17" src="https://github.com/user-attachments/assets/cd6c2e32-2488-4739-bae6-df8b0add45c5">
+
+<img width="1454" alt="Screenshot 2024-11-17 alle 11 52 21" src="https://github.com/user-attachments/assets/27225129-6c00-4345-a19c-9591d7d03dcd">
+
+
+
+°°°°°°°°°°°°°°°°°°°°DEMO °°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+
+<img width="1431" alt="Screenshot 2024-11-17 alle 11 55 51" src="https://github.com/user-attachments/assets/c6af5c56-905d-4c74-b0c4-f58f8fd1b120">
+
+
+
+
+
+
+
+
+
+
+
+
