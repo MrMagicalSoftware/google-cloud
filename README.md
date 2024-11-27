@@ -1372,7 +1372,7 @@ Se vuoi rendere l'interfaccia interattiva più efficace:
   ```bash
   gcloud beta interactive --setup
   ```
-  Questo installerà anche il supporto interattivo nella tua shell predefinita.
+con questo comando installo anche il supporto interattivo nella  shell predefinita.
 
 
 
